@@ -66,7 +66,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	banner: {
-		enable: false, // 是否启动Banner壁纸模式
+		enable: true, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -206,7 +206,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.主页,
+		LinkPreset.Home,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
@@ -240,7 +240,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.关于, LinkPreset.Friends,
+			children: [LinkPreset.About, LinkPreset.Friends,
 			{
       name: '统计',
       url: 'https://cloud.umami.is/share/fcdazKOajfiuNUzO',     
