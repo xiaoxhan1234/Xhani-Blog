@@ -192,6 +192,14 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/mobile-banner/m6.webp",
 			"/assets/mobile-banner/m7.webp",
 			"/assets/mobile-banner/m8.webp",
+			"/assets/mobile-banner/m9.webp",
+			"/assets/mobile-banner/m10.webp",
+			"/assets/mobile-banner/m11.webp",
+			"/assets/mobile-banner/m12.webp",
+			"/assets/mobile-banner/m13.webp",
+			"/assets/mobile-banner/m14.webp",
+			"/assets/mobile-banner/m15.webp",
+			"/assets/mobile-banner/m16.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -200,7 +208,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		interval: 1.5, // 轮播间隔时间（秒）
 	},
 	zIndex: 1, // 层级，确保壁纸在背景层
-	opacity: 0.8, // 壁纸透明度
+	opacity: 4, // 壁纸透明度
 	blur: 1, // 背景模糊程度
 };
 
