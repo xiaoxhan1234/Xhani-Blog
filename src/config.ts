@@ -197,16 +197,16 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
-		interval: 1, // 轮播间隔时间（秒）
+		interval: 1.5, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
-	opacity: 0.8, // 壁纸透明度
-	blur: 1, // 背景模糊程度
+	opacity: 0.5, // 壁纸透明度
+	blur: 0, // 背景模糊程度
 };
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
+		LinkPreset.主页,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
@@ -240,7 +240,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends,
+			children: [LinkPreset.关于, LinkPreset.Friends,
 			{
       name: '统计',
       url: 'https://cloud.umami.is/share/fcdazKOajfiuNUzO',     
