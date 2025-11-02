@@ -52,9 +52,18 @@ image: ./文章封面.jpg
 
 ---
 
-## :::caution[注意事项]
+## 注意事项
 
 
 - 请确保访问的是正确网站,避免钓鱼或恶意网站.
 - 如果网站无法访问,请联系邮箱mc@xhani.top
 - 请遵守相关法律法规,不得用于非法用途.
+
+
+:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
