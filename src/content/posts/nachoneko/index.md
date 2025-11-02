@@ -55,10 +55,7 @@ image: ./文章封面.jpg
 ## 注意事项
 
 
-- :::caution[请确保访问的是正确网站,避免钓鱼或恶意网站.]
-- 如果网站无法访问,请联系邮箱mc@xhani.top
-- 请遵守相关法律法规,不得用于非法用途.
+:::note[请确保访问的是正确网站,避免钓鱼或恶意网站.]
+:::important[如果网站无法访问,请联系邮箱mc@xhani.top]
+:::caution[请遵守相关法律法规,不得用于非法用途.]
 
-:::caution[请确保访问的是正确网站,避免钓鱼或恶意网站.]
-This is a note with a custom title.
-:::
