@@ -59,11 +59,6 @@ image: ./文章封面.jpg
 - 如果网站无法访问,请联系邮箱mc@xhani.top
 - 请遵守相关法律法规,不得用于非法用途.
 
-
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-:::tip
-Optional information to help a user be more successful.
+:::note[我的自定义标题]
+This is a note with a custom title.
 :::
