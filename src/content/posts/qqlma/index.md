@@ -1,19 +1,18 @@
 ---
-title: "React Hooks深度解析"
-published: 2025-01-20
+title: QQ乱码戳一戳
+published: 2025-11-09
 pinned: true
-description: "全面解析React Hooks的使用方法和最佳实践，包含大量代码示例和图片说明。"
-tags: [React, JavaScript, Hooks, Frontend]
-category: "Web Development"
-licenseName: "MIT"
-author: "李四"
+description: 把QQ戳一戳设置乱码戳一戳方法
+tags: [Tencent, QQ, 戳一戳, Markdown]
+category: 资源分享
+licenseName: ""
+author: XiaoXhan1234
 sourceLink: ""
 draft: false
-date: 2025-01-20
-pubDate: 2025-01-20
+image: ./戳戳乱码.jpg
 ---
 
-# React Hooks深度解析
+# QQ乱码戳一戳
 
 
 在这篇文章中，我们将深入探讨React Hooks...
