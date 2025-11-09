@@ -9,7 +9,7 @@ licenseName: ""
 author: 我是作者名字
 sourceLink: ""
 draft: false
-date: 2025-11-09
+image: ./戳戳乱码.jpg
 ---
 
 # 我是标题
