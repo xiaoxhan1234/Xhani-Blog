@@ -1,16 +1,16 @@
 ---
-title: 我是标题
+title: QQ乱码戳一戳
 published: 2025-11-09
 pinned: false
-description: 我是一个简单点描述
-tags: [标签1, 标签2]
-category: 我是分类
+description: 想要别人在戳你时变成一串乱码吗?
+tags: [Tencent, QQ, 戳一戳]
+category: 资源分享
 licenseName: ""
-author: 我是作者名字
+author: XiaoXhan1234
 sourceLink: ""
 draft: false
 image: ./戳戳乱码.jpg
 ---
 
-# 我是标题
-这是介绍
+# QQ乱码戳一戳
+内容暂定
