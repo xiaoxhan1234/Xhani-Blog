@@ -1,13 +1,13 @@
 ---
 title: Markdown Tutorial
 published: 2025-01-20
-pinned: 
+pinned: false
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Blogging]
-category: 
-licenseName: ""
+category:
+licenseName:
 author: xiaoxhan1234
-sourceLink: ""
+sourceLink:
 draft: false
 date: 2025-01-20
 pubDate: 2025-01-20
