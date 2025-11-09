@@ -10,9 +10,6 @@ author: "李四"
 sourceLink: ""
 draft: false
 date: 2025-01-20
-image:
-  url: ''
-  alt: ''
 pubDate: 2025-01-20
 ---
 
