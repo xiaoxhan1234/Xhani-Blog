@@ -4,13 +4,12 @@ published: 2025-01-20
 pinned: false
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Blogging]
-category:
-licenseName:
-author: xiaoxhan1234
-sourceLink:
+category: Examples
+licenseName: "Unlicensed"
+author: emn178
+sourceLink: "https://github.com/emn178/markdown"
 draft: false
 date: 2025-01-20
-pubDate: 2025-01-20
 ---
 
 # Markdown Tutorial
