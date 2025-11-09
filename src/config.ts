@@ -207,7 +207,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		enable: true, // 启用轮播
 		interval: 3, // 轮播间隔时间（秒）
 	},
-	zIndex: 1, // 层级，确保壁纸在背景层
+	zIndex: -1, // 层级，确保壁纸在背景层
 	opacity: 10, // 壁纸透明度
 	blur: 0.1, // 背景模糊程度
 };
