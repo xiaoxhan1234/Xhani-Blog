@@ -23,4 +23,7 @@ image: ./戳戳乱码.jpg
 先*看看*来自***一只呆呆的猫***的晒图叭
 ![一只呆呆的猫.jpg](./一只呆呆的猫.jpg "一只呆呆的猫.jpg")
 
-![nya.jpg](./nya.jpg"nya.jpg")
+*完整图*
+![nya.jpg](./nya.jpg "nya.jpg")
+
+
