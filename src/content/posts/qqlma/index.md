@@ -7,7 +7,7 @@ tags: [Markdown, Blogging]
 category: Examples
 licenseName: "Unlicensed"
 author: emn178
-sourceLink: "https://github.com/emn178/markdown"
+sourceLink: ""
 draft: false
 date: 2025-01-20
 ---
