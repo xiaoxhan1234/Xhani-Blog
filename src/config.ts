@@ -245,23 +245,22 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: "关于",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends,
-			{
       name: '统计',
       url: 'https://cloud.umami.is/share/fcdazKOajfiuNUzO',     
       external: true,                               
                 },
-			],
+		{
+			name: "关于",
+			url: "/content/",
+			icon: "material-symbols:info",
+			children: [LinkPreset.About, LinkPreset.Friends]
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "XiaoXhan1234",
+	name: "XiaoXhan1234"
 	bio: "你是一只zako,你知道吗",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
