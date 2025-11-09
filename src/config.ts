@@ -248,13 +248,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends,
-			{
-      name: '统计',
-      url: 'https://cloud.umami.is/share/fcdazKOajfiuNUzO',     
-      external: true,                               
-                },
-			],
+			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 	],
 };
