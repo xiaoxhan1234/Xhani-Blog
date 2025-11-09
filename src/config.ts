@@ -214,41 +214,43 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset。主页，
-		LinkPreset。Archive，
+		LinkPreset.Home,
+		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "项目"，
+			name: "项目",
 			url: "#",
 			icon: "material-symbols:work",
 			children: [
 				{
       name: '捏脸网站',
-      url: 'https://nacho.zako.wf'，     
+      url: 'https://nacho.zako.wf',     
       external: true,                               
                 },
 				{
       name: 'mikutap',
-      url: 'https://mikutap.zako.wf'，     
+      url: 'https://mikutap.zako.wf',     
       external: true,                               
                 },
                 {
       name: '哟，安杰罗',
-      url: 'https://angelo.zako.wf'，     
+      url: 'https://angelo.zako.wf',     
       external: true,                               
                 },
                 {
       name: '起始页',
-      url: 'https://nav.zako.wf'，     
+      url: 'https://nav.zako.wf',     
       external: true,                               
                 },
-			]，
-		}，
+			],
+		},
+		// 新增的独立统计菜单项
 		{
-      name: '统计',
-      url: 'https://cloud.umami.is/share/fcdazKOajfiuNUzO',     
-      external: true,                               
-        }，
+			name: "统计",
+			url: "https://cloud.umami.is/share/fcdazKOajfiuNUzO",
+			icon: "material-symbols:analytics", // 使用统计相关的图标
+			external: true,
+		},
 		{
 			name: "关于",
 			url: "/content/",
@@ -257,6 +259,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 	],
 };
+
 export const licenseConfig: LicenseConfig = {
 	enable: true,
 	name: "CC BY-NC-SA 4.0",
