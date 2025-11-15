@@ -3,7 +3,7 @@ import type { Translation } from "../translation";
 
 export const zh_CN: Translation = {
 	[Key.home]: "主页",
-	[Key.about]: "关于我",
+	[Key.about]: "关于我们",
 	[Key.archive]: "归档",
 	[Key.search]: "搜索",
 	[Key.other]: "其他",
@@ -44,6 +44,7 @@ export const zh_CN: Translation = {
 	[Key.license]: "许可协议",
 	[Key.anime]: "追番",
 	[Key.diary]: "日记",
+	[Key.gallery]: "相册",
 
 	// 番剧页面
 	[Key.animeTitle]: "我的追番记录",
@@ -228,4 +229,9 @@ export const zh_CN: Translation = {
 	[Key.atomHowToUse]: "推荐使用 Feedly、Inoreader 或其他 Atom 阅读器来订阅本站。",
 	[Key.atomCopied]: "Atom 链接已复制到剪贴板！",
 	[Key.atomCopyFailed]: "复制失败，请手动复制链接",
+
+	// 壁纸模式
+	[Key.wallpaperBanner]: "横幅模式",
+	[Key.wallpaperFullscreen]: "全屏模式",
+	[Key.wallpaperNone]: "隐藏壁纸",
 };

@@ -1,9 +1,30 @@
+import type {
+	AnnouncementConfig,
+	CommentConfig,
+	ExpressiveCodeConfig,
+	FooterConfig,
+	FullscreenWallpaperConfig,
+	LicenseConfig,
+	MusicPlayerConfig,
+	NavBarConfig,
+	ProfileConfig,
+	SakuraConfig,
+	SidebarLayoutConfig,
+	SiteConfig,
+} from "./types/config";
+import { LinkPreset } from "./types/config";
+
+// 移除i18n导入以避免循环依赖
+
 // 定义站点语言
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
-
+const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "XhaniのBlog",
 	subtitle: "杂鱼 杂鱼～",
+	siteURL: "https://blog.zako.wf/", // 请替换为你的站点URL，以斜杠结尾
+
+	timeZone: SITE_TIMEZONE,
 
 	lang: SITE_LANG,
 
@@ -47,13 +68,30 @@ export const siteConfig: SiteConfig = {
 		allowSwitch: false,
 	},
 
-	banner: {
-		enable: false, // 是否启动Banner壁纸模式
+	// 标签样式配置
+	tagStyle: {
+		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
+		useNewStyle: false,
+	},
 
+	// 壁纸模式配置
+	wallpaperMode: {
+		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
+		defaultMode: "fullscreen",
+		// 整体布局方案切换按钮显示设置（默认："desktop"）
+		// "off" = 不显示
+		// "mobile" = 仅在移动端显示
+		// "desktop" = 仅在桌面端显示
+		// "both" = 在所有设备上显示
+		showModeSwitchOnMobile: "both",
+	},
+
+	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
 				"/assets/desktop-banner/d1.webp",
+				"/assets/desktop-banner/d2.webp",
 				"/assets/desktop-banner/d2.webp",
 				"/assets/desktop-banner/d3.webp",
 				"/assets/desktop-banner/d4.webp",
@@ -61,6 +99,8 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/d6.webp",
 				"/assets/desktop-banner/d7.webp",
 				"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/d9.webp",
+				"/assets/desktop-banner/d10.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -71,6 +111,15 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/m6.webp",
 				"/assets/mobile-banner/m7.webp",
 				"/assets/mobile-banner/m8.webp",
+				"/assets/mobile-banner/m9.webp",
+				"/assets/mobile-banner/m10.webp",
+				"/assets/mobile-banner/m11.webp",
+				"/assets/mobile-banner/m12.webp",
+				"/assets/mobile-banner/m13.webp",
+				"/assets/mobile-banner/m14.webp",
+				"/assets/mobile-banner/m15.webp",
+				"/assets/mobile-banner/m16.webp",
+				"/assets/mobile-banner/m17.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -91,7 +140,7 @@ export const siteConfig: SiteConfig = {
 		// PicFlow API支持(智能图片API)
 		imageApi: {
 			enable: false, // 启用图片API
-			url: "https://i.xiaofa520.top/?type=url", // API地址，返回每行一个图片链接的文本
+			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -99,13 +148,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "XhaniのBlog!!", // 主页横幅主标题
+			title: "XhaniのBlog", // 主页横幅主标题
 
 			subtitle: [
 				"这是一个Blog",
-				"zako zako～",
-				"还在看轮播美图呢",
-				"捏脸网站: nacho.zako.wf",
+				"zako～ zako～",
+				"你是一只大杂鱼,还是大baka！",
+				"捏脸网站：nacho.zako.wf",
+				"哈基米南北绿豆",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -137,23 +187,22 @@ export const siteConfig: SiteConfig = {
 		// {
 		//   src: '/favicon/icon.png',    // 图标文件路径
 		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '192x192',              // 可选，图标大小
+		//   sizes: '32x32',              // 可选，图标大小
 		// }
 	],
 
 	// 字体配置
 	font: {
 		zenMaruGothic: {
-			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
+			enable: false, // 启用全局圆体适合日语和英语，对中文适配一般
 		},
 		hanalei: {
-			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
+			enable: true, // 启用 Hanalei 字体作为全局字体，适合中文去使用
 		},
 	},
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
@@ -164,6 +213,8 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/d6.webp",
 			"/assets/desktop-banner/d7.webp",
 			"/assets/desktop-banner/d8.webp",
+			"/assets/desktop-banner/d9.webp",
+			"/assets/desktop-banner/d10.webp",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/m1.webp",
@@ -182,6 +233,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/mobile-banner/m14.webp",
 			"/assets/mobile-banner/m15.webp",
 			"/assets/mobile-banner/m16.webp",
+			"/assets/mobile-banner/m17.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -190,8 +242,8 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		interval: 5, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
-	opacity: 10, // 壁纸透明度
-	blur: 0.1, // 背景模糊程度
+	opacity: 0.8, // 壁纸透明度
+	blur: 1, // 背景模糊程度
 };
 
 export const navBarConfig: NavBarConfig = {
@@ -308,7 +360,7 @@ export const announcementConfig: AnnouncementConfig = {
 	content: "blog已完成评论系统,happy！.", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
-		enable: false, // 启用链接
+		enable: true, // 启用链接
 		text: "Learn More", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
@@ -422,8 +474,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		breakpoints: {
 			// 移动端断点：屏幕宽度小于768px
 			mobile: 768,
-			// 平板端断点：屏幕宽度小于1024px
-			tablet: 1024,
+			// 平板端断点：屏幕宽度小于1280px
+			tablet: 1280,
 			// 桌面端断点：屏幕宽度小于1280px
 			desktop: 1280,
 		},
@@ -503,7 +555,7 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: true, // 是否显示Umami统计
+	enabled: false, // 是否显示Umami统计
 	apiKey: import.meta.env.UMAMI_API_KEY || "api_65WkISplrVdCi0AzQ7sPFOyhZgVJqwq2", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
