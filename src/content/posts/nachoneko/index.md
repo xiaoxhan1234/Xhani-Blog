@@ -1,6 +1,7 @@
 ---
 title: Amachiromaker & 捏脸网站
 published: 2025-10-25
+updated: 2025-11-14
 pinned: true
 description: 被甘城猫猫下线的捏脸网站.   **有重大更新**
 tags: [甘城猫猫, 捏脸网站, 不定时更新, Markdown]
