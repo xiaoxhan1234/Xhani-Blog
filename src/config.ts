@@ -1,21 +1,3 @@
-import type {
-	AnnouncementConfig,
-	CommentConfig,
-	ExpressiveCodeConfig,
-	FooterConfig,
-	FullscreenWallpaperConfig,
-	LicenseConfig,
-	MusicPlayerConfig,
-	NavBarConfig,
-	ProfileConfig,
-	SakuraConfig,
-	SidebarLayoutConfig,
-	SiteConfig,
-} from "./types/config";
-import { LinkPreset } from "./types/config";
-
-// 移除i18n导入以避免循环依赖
-
 // 定义站点语言
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
