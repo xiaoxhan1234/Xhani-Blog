@@ -26,27 +26,6 @@ if (footerConfig.enable) {
 }
 ---
 
-<div style="display:flex;align-items:center;padding:3px">
-      <i class="fa fa-exclamation-circle text-red-600" style="animation:pulse 2s infinite;margin-right:4px"></i>
-      <span style="margin-right:4px">本站已宕机运行：</span>
-      <span id="t" style="color:black"></span>
-    </div>
-<script>
-  let t = new Date() - Date.parse('2020-01-01'),
-      s = Math.floor(t/1000)%60,
-      d = Math.floor(t/86400000)%30,
-      m = Math.floor(t/2592000000)%12,
-      y = Math.floor(t/31536000000);
-  setInterval(()=>{
-    s = (s+1)%60;
-    document.getElementById('t').textContent = `${y}年${m}月${d}日${s}秒`;
-  },1000);
-  document.getElementById('t').textContent = `${y}年${m}月${d}日${s}秒`;
-</script>
-<style>
-  @keyframes pulse {0%,100%{opacity:1}50%{opacity:.5}}
-</style>
-
 <!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
 <div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div>
 <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
