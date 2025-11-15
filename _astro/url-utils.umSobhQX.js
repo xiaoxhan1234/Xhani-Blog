@@ -1,0 +1,1 @@
+import"./config.DAQS4Fa6.js";import"./zh_TW.DrrWwPS4.js";function u(o,t){const n=o.replace(/^\/|\/$/g,"").toLowerCase(),r=t.replace(/^\/|\/$/g,"").toLowerCase();return n===r}function e(...o){return o.join("/").replace(/\/+/g,"/")}function c(o){return a(`/posts/${o}/`)}function a(o){return e("","/",o)}export{c as g,u as p,a as u};

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XhaniのBlog</title>
+  <subtitle>杂鱼 杂鱼～</subtitle>
+  <link href="https://blog.zako.wf/" rel="alternate" type="text/html"/>
+  <link href="https://blog.zako.wf/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://blog.zako.wf/</id>
+  <updated>2025-11-15T22:31:37.760Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>Amachiromaker & 捏脸网站</title>
+    <link href="https://blog.zako.wf/posts/nachoneko/" rel="alternate" type="text/html"/>
+    <id>https://blog.zako.wf/posts/nachoneko/</id>
+    <published>2025-10-25T00:00:00.000Z</published>
+    <updated>2025-11-14T00:00:00.000Z</updated>
+    <summary>被甘城猫猫下线的捏脸网站.   **有重大更新**</summary>
+    <content type="html"><![CDATA[<h1>项目简介</h1>
+<p>::github{repo="NekoQiye/RE-Amachiromaker"}</p>
+<p><em><strong>Amachiromaker</strong></em> 是一个用于创建和自定义<strong>二次元</strong>角色形象的网站,它提供了一系列功能，让用户可以自由调整角色的<strong>面部特征、发型、服装</strong>等。<img src="./%E8%A7%92%E8%89%B2%E5%B1%95%E7%A4%BA%E5%9B%BE.png" alt="角色展示图.png" title="角色展示图.png" /></p>
+<hr />
+<h1>网站信息</h1>
+<h2>网站名称</h2>
+<p>✨<strong>甘城猫猫捏脸网站</strong>✨</p>
+<h2>功能描述</h2>
+<ul>
+<li>在线捏脸网站</li>
+<li>支持<strong>超多装扮</strong>自定义组合</li>
+<li>可下载<em><strong>预设模板</strong></em>和<em>PSD</em>保存选项</li>
+<li>拥有<strong>一键重置</strong>
+<img src="./%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA%E5%9B%BE.png" alt="功能展示图.png" title="功能展示图.png" /></li>
+</ul>
+<hr />
+<h1>使用说明</h1>
+<ol>
+<li>打开<strong>浏览器</strong>,访问<a href="https://nacho.zako.wf">nacho.zako.wf</a></li>
+<li>下载或上传角色预设（如果需要）</li>
+<li>使用提供的<strong>多种装饰</strong>调整<strong>面部特征</strong>、<strong>发型</strong>、<strong>服装</strong>、<strong>表情</strong>等</li>
+<li>使用下载预设导出角色模板或保存<em><strong>PNG</strong></em>自定义的角色形象</li>
+</ol>
+<hr />
+<h1>预计网站更新[<code>现已更新</code>]</h1>
+<p><img src="https://blog.zako.wf/_astro/bili.C_DssnEM_ZImBEn.webp" alt="预计网站更新.png" title="预计网站更新.png" /></p>
+<p>是的没错,这正是该<em><strong>框架改版作者</strong></em>所述,在推出新版<em><strong>Release</strong></em>之后,<strong>捏脸网站</strong>即会马上<strong>更新</strong>。</p>
+<hr />
+<h1>新增功能说明</h1>
+<h2>用户同意协议</h2>
+<ul>
+<li>首次<strong>访问时</strong>会显示用<strong>用户协议</strong>弹窗.
+(<em><strong>同意之后不会再显示</strong></em>)</li>
+<li><em><strong>明确</strong></em>说明<strong>数据使用</strong>和<strong>隐私保护</strong>政策.</li>
+<li>用户需要<strong>同意协议</strong>后才能使用网站功能.
+<s>(<em>不同意就跳转宝宝巴士</em>)</s></li>
+<li>协议内容涵盖<em><strong>版权声明、使用规范</strong></em>.
+<img src="./%E5%8D%8F%E8%AE%AE.jpg" alt="协议.jpg" title="协议.jpg" /></li>
+</ul>
+<h2>网站底部信息</h2>
+<p><strong>网站底部现已添加更多更完整的信息：</strong>
+<img src="./%E5%BA%95%E9%83%A8%E4%BF%A1%E6%81%AF.jpg" alt="底部信息.jpg" title="底部信息.jpg" /></p>
+<hr />
+<h1>注意事项</h1>
+<p>:::note[]
+请确保访问的是正确网站,避免钓鱼或恶意网站.
+:::
+:::important[]
+如果网站无法访问,请联系邮箱mc@xhani.top
+:::
+:::caution[]
+请遵守相关法律法规,不得用于非法用途.
+:::</p>
+]]></content>
+    <author>
+      <name>XiaoXhan1234</name>
+    </author>
+    <category term="资源分享"></category>
+  </entry>
+  <entry>
+    <title>QQ乱码戳一戳</title>
+    <link href="https://blog.zako.wf/posts/qqlma/" rel="alternate" type="text/html"/>
+    <id>https://blog.zako.wf/posts/qqlma/</id>
+    <published>2025-11-09T00:00:00.000Z</published>
+    <updated>2025-11-09T00:00:00.000Z</updated>
+    <summary>想要别人在戳你时变成一串乱码吗?</summary>
+    <content type="html"><![CDATA[<h1>QQ乱码戳一戳</h1>
+<hr />
+<h3>具体内容还未写</h3>
+<hr />
+<p>先<em>看看</em>来自<em><strong>一只呆呆的猫</strong></em>的晒图叭
+<img src="./%E4%B8%80%E5%8F%AA%E5%91%86%E5%91%86%E7%9A%84%E7%8C%AB.jpg" alt="一只呆呆的猫.jpg" title="一只呆呆的猫.jpg" /></p>
+<p><em>完整图</em>
+<img src="https://blog.zako.wf/_astro/nya.aJQ_jcWg_Z1B87XA.webp" alt="nya.jpg" title="nya.jpg" /></p>
+]]></content>
+    <author>
+      <name>XiaoXhan1234</name>
+    </author>
+    <category term="资源分享"></category>
+  </entry>
+</feed>
