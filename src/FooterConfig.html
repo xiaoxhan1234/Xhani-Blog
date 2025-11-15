@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>网站运行时间</title>
+    <!-- 引入 Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        。runtime-container {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            background: #f3f4f6;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: system-ui, sans-serif;
+        }
+        。dark .runtime-container {
+            background: #374151;
+            color: white;
+        }
+        。runtime-icon {
+            color: #ef4444;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        。runtime-text {
+            margin-right: 8px;
+            color: #6b7280;
+        }
+        。dark .runtime-text {
+            color: #d1d5db;
+        }
+        。runtime-timer {
+            font-weight: bold;
+            color: #111827;
+        }
+        。dark .runtime-timer {
+            color: white;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 直接复制这部分到您的页脚 -->
+    <div class="runtime-container">
+        <i class="fas fa-exclamation-circle runtime-icon"></i>
+        <span class="runtime-text">本站已运行：</span>
+        <span id="runtime-timer" class="runtime-timer">计算中...</span>
+    </div>
+
+    <script>
+        // 修改这里的启动日期为您的网站实际上线时间
+        const startDate = new Date('2025-10-28 00:00:00').getTime();
+        
+        function updateRuntime() {
+            const now = new Date().getTime();
+            const diff = now - startDate;
+            
+            // 计算时间差
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            // 更新显示
+            document.getElementById('runtime-timer').textContent = 
+                `${days}天${hours}时${minutes}分${seconds}秒`;
+        }
+        
+        // 立即执行一次，然后每秒更新
+        updateRuntime();
+        setInterval(updateRuntime, 1000);
+    </script>
+</body>
+</html>
 
