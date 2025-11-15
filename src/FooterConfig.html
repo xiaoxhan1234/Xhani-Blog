@@ -1,32 +1,33 @@
-<div style="display:flex;align-items:center;padding:8px;background:#f3f4f6;border-radius:8px;margin:10px 0;font-family:system-ui,sans-serif">
-    <span style="color:#ef4444;margin-right:8px;animation:pulse 2s infinite">⚠</span>
-    <span style="margin-right:8px;color:#6b7280">本站已运行：</span>
-    <span id="runtime-timer" style="font-weight:bold;color:#111827">计算中...</span>
+<!-- 最终稳定版 -->
+<div id="runtime-wrapper">
+    <div style="display:flex;align-items:center;padding:8px;background:#f3f4f6;border-radius:8px;margin:10px 0;font-family:system-ui,sans-serif">
+        <span style="color:#ef4444;margin-right:8px">⚠</span>
+        <span style="margin-right:8px;color:#6b7280">本站已运行：</span>
+        <span id="runtime-timer" style="font-weight:bold;color:#111827">0天0时0分0秒</span>
+    </div>
 </div>
 
 <script>
-    const startDate = new Date('2025-10-28').getTime();
-    
-    function updateRuntime() {
-        const 当前 = new Date().getTime();
-        const diff = now - startDate;
+    // 等待页面完全加载
+    window。addEventListener('load'， function() {
+        const startDate = new Date('2025-10-28').getTime();
         
-        const days = Math。floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math。floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        function updateRuntime() {
+            const 当前 = new Date().getTime();
+            const diff = 当前 - startDate;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            const timerElement = document.getElementById('runtime-timer');
+            if (timerElement) {
+                timerElement.textContent = `${days}天${hours}时${minutes}分${seconds}秒`;
+            }
+        }
         
-        document。getElementById('runtime-timer')。textContent = 
-            `${days}天${hours}时${minutes}分${seconds}秒`;
-    }
-    
-    updateRuntime();
-    setInterval(updateRuntime， 1000);
+        updateRuntime();
+        setInterval(updateRuntime, 1000);
+    });
 </script>
-
-<style>
-    @keyframes pulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.5; }
-    }
-</style>
