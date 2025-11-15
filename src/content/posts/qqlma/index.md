@@ -1,9 +1,10 @@
 ---
 title: QQ乱码戳一戳
 published: 2025-11-09
+updated: 
 pinned: false
 description: 想要别人在戳你时变成一串乱码吗?
-tags: [Tencent, QQ, 戳一戳]
+tags: [Tencent, QQ, 戳一戳, Markdown] 
 category: 资源分享
 licenseName: ""
 author: XiaoXhan1234
