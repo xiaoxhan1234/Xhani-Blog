@@ -1,5 +1,4 @@
 ---
-
 import fs from "node:fs";
 import path from "node:path";
 import { footerConfig, profileConfig } from "../config";
@@ -24,24 +23,80 @@ if (footerConfig.enable) {
 		console.warn("FooterConfig.html文件读取失败:", error.message);
 	}
 }
+
+// 计算网站运行时间
+const startDate = new Date('2025-10-28'); // 修改为您网站的实际启动日期
+const currentDate = new Date();
+const timeDiff = currentDate - startDate;
+
+const seconds = Math.floor(timeDiff / 1000) % 60;
+const minutes = Math.floor(timeDiff / (1000 * 60)) % 60;
+const hours = Math.floor(timeDiff / (1000 * 60 * 60)) % 24;
+const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 ---
 
-<!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
+<!-- 分隔线 -->
 <div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div>
-<!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
+
+<!-- 页脚内容容器 -->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm text-center">
+        <!-- 自定义HTML内容 -->
         {customFooterHtml && (
             <div class="mb-2" set:html={customFooterHtml}></div>
         )}
+        
+        <!-- 网站运行时间计时器 -->
+        <div class="flex items-center justify-center p-2 mb-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+            <i class="fa fa-exclamation-circle text-red-500 mr-2 animate-pulse"></i>
+            <span class="mr-2 text-gray-600 dark:text-gray-300">本站已运行：</span>
+            <span id="runtime-timer" class="font-bold text-gray-900 dark:text-white">
+                {days}天{hours}时{minutes}分{seconds}秒
+            </span>
+        </div>
+        
+        <!-- 版权信息 -->
         &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
         <a class="transition link text-[var(--primary)] font-medium" href={url('rss/')} onclick={`event.preventDefault(); navigateToPage('${url('rss/')}')`}>RSS</a> /
 		<a class="transition link text-[var(--primary)] font-medium" href={url('atom/')} onclick={`event.preventDefault(); navigateToPage('${url('atom/')}')`}>Atom</a> /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}>Sitemap</a><br>
+        
+        <!-- 技术支持信息 -->
         Powered by
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://astro.build">Astro</a> &
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/matsuzaka-yuki/mizuki">Mizuki</a>&nbsp; Version <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/matsuzaka-yuki/mizuki">6.0</a><br>
-        
-
     </div>
 </div>
+
+<!-- 实时更新计时器的客户端脚本 -->
+<script is:inline>
+// 网站启动日期（修改为您的实际日期）
+const startTimestamp = Date.parse('2025-10-28');
+const timerElement = document.getElementById('runtime-timer');
+
+function updateRuntime() {
+    const now = new Date();
+    const diff = now - startTimestamp;
+    
+    const seconds = Math.floor(diff / 1000) % 60;
+    const minutes = Math.floor(diff / (1000 * 60)) % 60;
+    const hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    
+    timerElement.textContent = `${days}天${hours}时${minutes}分${seconds}秒`;
+}
+
+// 每秒更新一次
+setInterval(updateRuntime, 1000);
+</script>
+
+<style is:inline>
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+</style>
