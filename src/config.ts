@@ -194,10 +194,10 @@ export const siteConfig: SiteConfig = {
 	// 字体配置
 	font: {
 		zenMaruGothic: {
-			enable: false, // 启用全局圆体适合日语和英语，对中文适配一般
+			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
 		},
 		hanalei: {
-			enable: true, // 启用 Hanalei 字体作为全局字体，适合中文去使用
+			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
 		},
 	},
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
@@ -361,8 +361,8 @@ export const announcementConfig: AnnouncementConfig = {
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
-		url: "/about/", // 链接 URL
+		text: "", // 链接文本
+		url: "", // 链接 URL
 		external: false, // 内部链接
 	},
 };
