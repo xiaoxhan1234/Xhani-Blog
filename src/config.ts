@@ -65,6 +65,12 @@ export const siteConfig: SiteConfig = {
 		allowSwitch: false,
 	},
 
+	// 标签样式配置
+	tagStyle: {
+		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
+		useNewStyle: false,
+	},
+
 	banner: {
 		enable: false, // 是否启动Banner壁纸模式
 
@@ -302,6 +308,11 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/matsuzaka-yuki",
+		},
+		{
+			name: "Codeberg",
+			icon: "simple-icons:codeberg",
+			url: "https://codeberg.org",
 		},
 		{
 			name: "Discord",
