@@ -360,9 +360,9 @@ export const announcementConfig: AnnouncementConfig = {
 	content: "更新了壁纸切换模式～.", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
-		enable: false, // 启用链接
+		enable: true, // 启用链接
 		text: "", // 链接文本
-		url: "<img src="https://photo.zako.wf/i/2025/10/25/68fc480308a42.png" alt="1000274595.png" title="1000274595.png" />", // 链接 URL
+		url: "https://photo.zako.wf/i/2025/10/25/68fc480308a42.png", // 链接 URL
 		external: false, // 内部链接
 	},
 };
