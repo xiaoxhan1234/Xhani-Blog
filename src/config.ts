@@ -356,8 +356,8 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "公告", // 公告标题
-	content: "更新了壁纸切换模式～![1000274595.png](https://photo.zako.wf/i/2025/10/25/68fc480308a42.png)", // 公告内容
+	title: "更新公告", // 公告标题
+	content: "更新了壁纸切换模式～", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
@@ -555,7 +555,7 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: false, // 是否显示Umami统计
+	enabled: true, // 是否显示Umami统计
 	apiKey: import.meta.env.UMAMI_API_KEY || "api_65WkISplrVdCi0AzQ7sPFOyhZgVJqwq2", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
