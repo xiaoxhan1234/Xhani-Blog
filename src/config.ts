@@ -357,9 +357,9 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "blog已完成评论系统,happy！.", // 公告内容
+	content: "更新了壁纸切换模式～.", // 公告内容
 	closable: false, // 允许用户关闭公告
-	link: {
+	link: {![1000274595.png](https://photo.zako.wf/i/2025/10/25/68fc480308a42.png)
 		enable: true, // 启用链接
 		text: "", // 链接文本
 		url: "", // 链接 URL
