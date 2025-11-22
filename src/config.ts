@@ -357,12 +357,12 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "更新了壁纸切换模式～.", // 公告内容
+	content: "更新了壁纸切换模式～![1000274595.png](https://photo.zako.wf/i/2025/10/25/68fc480308a42.png)", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
-		enable: true, // 启用链接
+		enable: false, // 启用链接
 		text: "", // 链接文本
-		url: "https://photo.zako.wf/i/2025/10/25/68fc480308a42.png", // 链接 URL
+		url: "", // 链接 URL
 		external: false, // 内部链接
 	},
 };
