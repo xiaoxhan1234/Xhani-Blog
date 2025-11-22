@@ -72,7 +72,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	banner: {
-		enable: false, // 是否启动Banner壁纸模式
+		enable: true, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -107,7 +107,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		waves: {
-			enable: true, // 是否启用水波纹效果(这个功能比较吃性能)
+			enable: false, // 是否启用水波纹效果(这个功能比较吃性能)
 			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: false, // 移动端禁用
 		},
@@ -468,8 +468,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		breakpoints: {
 			// 移动端断点：屏幕宽度小于768px
 			mobile: 768,
-			// 平板端断点：屏幕宽度小于1280px
-			tablet: 1280,
+			// 平板端断点：屏幕宽度小于1024px
+			tablet: 1024,
 			// 桌面端断点：屏幕宽度小于1280px
 			desktop: 1280,
 		},
