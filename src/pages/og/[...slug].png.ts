@@ -8,6 +8,7 @@ import sharp from "sharp";
 import { profileConfig, siteConfig } from "../../config";
 
 type Weight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
+
 type FontStyle = "normal" | "italic";
 interface FontOptions {
 	data: Buffer | ArrayBuffer;
@@ -32,13 +33,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	}));
 };
 
-let fontCache: { regular: Buffer | null; bold: Buffer | null } | null = null;
-
 async function fetchNotoSansSCFonts() {
-	if (fontCache) {
-		return fontCache;
-	}
-
 	try {
 		const cssResp = await fetch(
 			"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap",
@@ -64,8 +59,7 @@ async function fetchNotoSansSCFonts() {
 			console.warn(
 				"Could not find font urls in Google Fonts CSS; falling back to no fonts.",
 			);
-			fontCache = { regular: null, bold: null };
-			return fontCache;
+			return { regular: null, bold: null };
 		}
 
 		const [rResp, bResp] = await Promise.all([
@@ -76,19 +70,16 @@ async function fetchNotoSansSCFonts() {
 			console.warn(
 				"Failed to download font files from Google; falling back to no fonts.",
 			);
-			fontCache = { regular: null, bold: null };
-			return fontCache;
+			return { regular: null, bold: null };
 		}
 
 		const rBuf = Buffer.from(await rResp.arrayBuffer());
 		const bBuf = Buffer.from(await bResp.arrayBuffer());
 
-		fontCache = { regular: rBuf, bold: bBuf };
-		return fontCache;
+		return { regular: rBuf, bold: bBuf };
 	} catch (err) {
 		console.warn("Error fetching fonts:", err);
-		fontCache = { regular: null, bold: null };
-		return fontCache;
+		return { regular: null, bold: null };
 	}
 }
 

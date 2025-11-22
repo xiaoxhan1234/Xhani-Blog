@@ -27,7 +27,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
-	site: "https://mizuki.mysqil.com/",
+	site: "https://blog.zako.wf/",
 
 	base: "/",
 	trailingSlash: "always",
@@ -63,7 +63,6 @@ export default defineConfig({
 				"fa6-regular": ["*"],
 				"fa6-solid": ["*"],
 				mdi: ["*"],
-				"simple-icons": ["*"],
 			},
 		}),
 		expressiveCode({
