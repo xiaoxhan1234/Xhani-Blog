@@ -42,7 +42,6 @@ enum I18nKey {
 	friends = "friends",
 	anime = "anime",
 	diary = "diary",
-	gallery = "gallery",
 
 	// 番剧页面
 	animeTitle = "animeTitle",
@@ -226,11 +225,6 @@ enum I18nKey {
 	atomHowToUse = "atomHowToUse",
 	atomCopied = "atomCopied",
 	atomCopyFailed = "atomCopyFailed",
-
-	// Wallpaper mode
-	wallpaperBanner = "wallpaperBanner",
-	wallpaperFullscreen = "wallpaperFullscreen",
-	wallpaperNone = "wallpaperNone",
 }
 
 export default I18nKey;

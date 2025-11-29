@@ -17,37 +17,34 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
-const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
-export const siteConfig: SiteConfig = {
-	title: "XhaniのBlog",
-	subtitle: "杂鱼 杂鱼～",
-	siteURL: "https://blog.zako.wf/", // 请替换为你的站点URL，以斜杠结尾
+const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
-	timeZone: SITE_TIMEZONE,
+export const siteConfig: SiteConfig = {
+	title: "Mizuki",
+	subtitle: "One demo website",
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 360, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: true, // 对访问者隐藏主题色选择器
+		hue: 35, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
 	// 特色页面开关配置(关闭不在使用的页面有助于提升SEO,关闭后直接在顶部导航删除对应的页面就行)
 	featurePages: {
-		anime: false, // 番剧页面开关
-		diary: false, // 日记页面开关
+		anime: true, // 番剧页面开关
+		diary: true, // 日记页面开关
 		friends: true, // 友链页面开关
 		projects: true, // 项目页面开关
-		skills: false, // 技能页面开关
-		timeline: false, // 时间线页面开关
+		skills: true, // 技能页面开关
+		timeline: true, // 时间线页面开关
 		albums: true, // 相册页面开关
 	},
 
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "XhaniのBlog",
+		text: "MizukiUI",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
@@ -63,35 +60,18 @@ export const siteConfig: SiteConfig = {
 	// 文章列表布局配置
 	postListLayout: {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
-		defaultMode: "list",
+		defaultMode: "grid",
 		// 是否允许用户切换布局
-		allowSwitch: false,
-	},
-
-	// 标签样式配置
-	tagStyle: {
-		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-		useNewStyle: false,
-	},
-
-	// 壁纸模式配置
-	wallpaperMode: {
-		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "fullscreen",
-		// 整体布局方案切换按钮显示设置（默认："desktop"）
-		// "off" = 不显示
-		// "mobile" = 仅在移动端显示
-		// "desktop" = 仅在桌面端显示
-		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "both",
+		allowSwitch: true,
 	},
 
 	banner: {
+		enable: true, // 是否启动Banner壁纸模式
+
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
 				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
 				"/assets/desktop-banner/d2.webp",
 				"/assets/desktop-banner/d3.webp",
 				"/assets/desktop-banner/d4.webp",
@@ -99,8 +79,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/d6.webp",
 				"/assets/desktop-banner/d7.webp",
 				"/assets/desktop-banner/d8.webp",
-				"/assets/desktop-banner/d9.webp",
-				"/assets/desktop-banner/d10.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -111,15 +89,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/m6.webp",
 				"/assets/mobile-banner/m7.webp",
 				"/assets/mobile-banner/m8.webp",
-				"/assets/mobile-banner/m9.webp",
-				"/assets/mobile-banner/m10.webp",
-				"/assets/mobile-banner/m11.webp",
-				"/assets/mobile-banner/m12.webp",
-				"/assets/mobile-banner/m13.webp",
-				"/assets/mobile-banner/m14.webp",
-				"/assets/mobile-banner/m15.webp",
-				"/assets/mobile-banner/m16.webp",
-				"/assets/mobile-banner/m17.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -132,7 +101,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		waves: {
-			enable: false, // 是否启用水波纹效果(这个功能比较吃性能)
+			enable: true, // 是否启用水波纹效果(这个功能比较吃性能)
 			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: false, // 移动端禁用
 		},
@@ -148,19 +117,18 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "XhaniのBlog", // 主页横幅主标题
+			title: "Beautiful Mizuki!", // 主页横幅主标题
 
 			subtitle: [
-				"这是一个Blog",
-				"zako～ zako～",
-				"你是一只大杂鱼,还是大baka！",
-				"捏脸网站：nacho.zako.wf",
-				"哈基米南北绿豆",
+				"A Showcase Demo Site",
+				"Carousel Highlight: Innovation",
+				"Carousel Focus: User Experience",
+				"Carousel Spot: Core Advantages",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
-				speed: 69, // 打字速度（毫秒）
+				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
 				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
 			},
@@ -203,6 +171,7 @@ export const siteConfig: SiteConfig = {
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
+	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
@@ -213,8 +182,6 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/d6.webp",
 			"/assets/desktop-banner/d7.webp",
 			"/assets/desktop-banner/d8.webp",
-			"/assets/desktop-banner/d9.webp",
-			"/assets/desktop-banner/d10.webp",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/m1.webp",
@@ -225,21 +192,12 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/mobile-banner/m6.webp",
 			"/assets/mobile-banner/m7.webp",
 			"/assets/mobile-banner/m8.webp",
-			"/assets/mobile-banner/m9.webp",
-			"/assets/mobile-banner/m10.webp",
-			"/assets/mobile-banner/m11.webp",
-			"/assets/mobile-banner/m12.webp",
-			"/assets/mobile-banner/m13.webp",
-			"/assets/mobile-banner/m14.webp",
-			"/assets/mobile-banner/m15.webp",
-			"/assets/mobile-banner/m16.webp",
-			"/assets/mobile-banner/m17.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
-		interval: 5, // 轮播间隔时间（秒）
+		interval: 1, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
 	opacity: 0.8, // 壁纸透明度
@@ -252,51 +210,79 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "项目",
-			url: "#",
-			icon: "material-symbols:work",
+			name: "Links",
+			url: "/links/",
+			icon: "material-symbols:link",
 			children: [
 				{
-      name: '捏脸网站',
-      url: 'https://nacho.zako.wf',     
-      external: true,                               
-                },
+					name: "GitHub",
+					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					external: true,
+					icon: "fa6-brands:github",
+				},
 				{
-      name: 'mikutap',
-      url: 'https://mikutap.zako.wf',     
-      external: true,                               
-                },
-                {
-      name: '哟，安杰罗',
-      url: 'https://angelo.zako.wf',     
-      external: true,                               
-                },
-                {
-      name: '起始页',
-      url: 'https://nav.zako.wf',     
-      external: true,                               
-                },
+					name: "Bilibili",
+					url: "https://space.bilibili.com/701864046",
+					external: true,
+					icon: "fa6-brands:bilibili",
+				},
+				{
+					name: "Gitee",
+					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					external: true,
+					icon: "mdi:git",
+				},
 			],
 		},
 		{
-			name: "关于",
+			name: "My",
+			url: "/content/",
+			icon: "material-symbols:person",
+			children: [
+				LinkPreset.Anime,
+				LinkPreset.Diary,
+				{
+					name: "Gallery",
+					url: "/albums/",
+					icon: "material-symbols:photo-library",
+				},
+			],
+		},
+		{
+			name: "About",
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
-      name: "统计",
-      url: "https://cloud.umami.is/share/fcdazKOajfiuNUzO",
-      external: true,
-    
+			name: "Others",
+			url: "#",
+			icon: "material-symbols:more-horiz",
+			children: [
+				{
+					name: "Projects",
+					url: "/projects/",
+					icon: "material-symbols:work",
+				},
+				{
+					name: "Skills",
+					url: "/skills/",
+					icon: "material-symbols:psychology",
+				},
+				{
+					name: "Timeline",
+					url: "/timeline/",
+					icon: "material-symbols:timeline",
+				},
+			],
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "XiaoXhan1234",
-	bio: "你是一只杂鱼,还是大baka！",
+	name: "Matsuzaka Yuki",
+	bio: "The world is big, you have to go and see",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -305,32 +291,22 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/3546647371975467",
+			url: "https://space.bilibili.com/701864046",
 		},
 		{
-			name: "QQ",
-			icon: "fa6-brands:qq",
-			url: "https://res.abeim.cn/api/qq/?qq=3084058513",
-		},
-		{
-			name: "Email",
-			icon: "fa6-regular:envelope",
-			url: "mailto:mc@xhani.top",
+			name: "Gitee",
+			icon: "mdi:git",
+			url: "https://gitee.com/matsuzakayuki",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/xiaoxhan1234",
+			url: "https://github.com/matsuzaka-yuki",
 		},
 		{
-			name: "Twitch",
-			icon: "fa6-brands:twitch",
-			url: "https://www.twitch.tv/xiaoxhan1234",
-		},
-		{
-			name: "Pixiv",
-			icon: "fa6-brands:pixiv",
-			url: "https://www.pixiv.net/users/111246530",
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "https://discord.gg/MqW6TcQtVM",
 		},
 	],
 };
@@ -348,21 +324,21 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.zako.wf",
-		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
+		envId: "https://twikoo.vercel.app",
+		lang: "en", // 设置 Twikoo 评论系统语言为英文
 	},
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "公告", // 公告标题
-	content: "blog已完成评论系统,happy！.", // 公告内容
-	closable: false, // 允许用户关闭公告
+	title: "Announcement", // 公告标题
+	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	closable: true, // 允许用户关闭公告
 	link: {
-		enable: false, // 启用链接
-		text: "", // 链接文本
-		url: "", // 链接 URL
+		enable: true, // 启用链接
+		text: "Learn More", // 链接文本
+		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},
 };
@@ -372,7 +348,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 };
 
 export const footerConfig: FooterConfig = {
-	enable: true, // 是否启用Footer HTML注入功能
+	enable: false, // 是否启用Footer HTML注入功能
 };
 
 // 直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
@@ -474,8 +450,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		breakpoints: {
 			// 移动端断点：屏幕宽度小于768px
 			mobile: 768,
-			// 平板端断点：屏幕宽度小于1280px
-			tablet: 1280,
+			// 平板端断点：屏幕宽度小于1024px
+			tablet: 1024,
 			// 桌面端断点：屏幕宽度小于1280px
 			desktop: 1280,
 		},
@@ -521,7 +497,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 启用看板娘
+	enable: true, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
@@ -529,17 +505,17 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "小杂鱼~欢迎来到XhaniのBlog!", // 欢迎词
+		welcome: "Welcome to Mizuki Website!", // 欢迎词
 		touch: [
-			"你想做什么呢?",
-			"小杂鱼不能摸我!<(｀^´)>",
+			"What are you doing?",
+			"Stop touching me!",
 			"HENTAI!",
-			"不..不能,这样欺负我!（",
+			"Don't bully me like that!",
 		], // 触摸提示
-		home: "点击此处返回主页!", // 首页提示
-		skin: ["想看看我的新衣服吗?", "新衣服看起来很棒~"], // 换装提示
-		close: "QWQ 下次再见~", // 关闭提示
-		link: "https://github.com/xiaoxhan1234", // 关于链接
+		home: "Click here to go back to homepage!", // 首页提示
+		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
+		close: "QWQ See you next time~", // 关闭提示
+		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
 
@@ -555,10 +531,10 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: true, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "api_65WkISplrVdCi0AzQ7sPFOyhZgVJqwq2", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	enabled: false, // 是否显示Umami统计
+	apiKey: import.meta.env.UMAMI_API_KEY || "api_xxxxxxxx", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
-<script defer src="https://cloud.umami.is/script.js" data-website-id="990905bb-5eb3-4add-a0fd-73592f0ad634"></script>
+<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
