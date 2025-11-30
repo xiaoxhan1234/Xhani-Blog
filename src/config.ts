@@ -468,8 +468,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		breakpoints: {
 			// 移动端断点：屏幕宽度小于768px
 			mobile: 768,
-			// 平板端断点：屏幕宽度小于1024px
-			tablet: 1024,
+			// 平板端断点：屏幕宽度小于1280px
+			tablet: 1280,
 			// 桌面端断点：屏幕宽度小于1280px
 			desktop: 1280,
 		},
@@ -515,7 +515,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: true, // 启用看板娘
+	enable: false, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
