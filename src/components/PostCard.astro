@@ -1,12 +1,10 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { render } from "astro:content";
 import * as path from "node:path";
 import { Icon } from "astro-icon/components";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
-import { getDir, getTagUrl, getFileDirFromPath } from "@/utils/url-utils";
-import { siteConfig } from "../config";
+import { getDir, getTagUrl } from "../utils/url-utils";
 import ImageWrapper from "./misc/ImageWrapper.astro";
 import PostMetadata from "./PostMeta.astro";
 
@@ -44,7 +42,7 @@ const hasCover = image !== undefined && image !== null && image !== "";
 
 const coverWidth = "28%";
 
-const { remarkPluginFrontmatter } = await render(entry);
+const { remarkPluginFrontmatter } = await entry.render();
 ---
 
 <div class:list={["card-base flex flex-col-reverse md:flex-col w-full rounded-[var(--radius-large)] overflow-hidden relative", className]} style={style}>
@@ -76,16 +74,9 @@ const { remarkPluginFrontmatter } = await render(entry);
                 tags.map((tag) => (
                     <a 
                         href={getTagUrl(tag)} 
-                        class:list={[
-                            siteConfig.tagStyle?.useNewStyle 
-                                ? "link-lg transition text-50 text-xs font-medium px-2 py-1 rounded-lg hover:text-[var(--primary)] dark:hover:text-[var(--primary)] active:text-[var(--primary)] dark:active:text-[var(--primary)] group/tag whitespace-nowrap"
-                                : "btn-regular h-6 text-xs px-2 rounded-lg"
-                        ]}
-                        aria-label={`View all posts tagged with ${tag.trim()}`}
+                        class="btn-regular h-6 text-xs px-2 rounded-lg"
                     >
-                        <span class="transition-transform group-hover/tag:translate-x-0.5">
-                            # {tag.trim()}
-                        </span>
+                        # {tag.trim()}
                     </a>
                 ))
             ) : (
@@ -105,7 +96,7 @@ const { remarkPluginFrontmatter } = await render(entry);
                   class="transition opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 text-white text-5xl">
             </Icon>
         </div>
-        <ImageWrapper src={image} basePath={getFileDirFromPath(entry.filePath || '')} alt="Cover Image of the Post"
+        <ImageWrapper src={image} basePath={path.join("content/posts/", getDir(entry.id))} alt="Cover Image of the Post"
                   class="w-full h-full">
         </ImageWrapper>
     </a>}

@@ -1,49 +1,37 @@
+# 关于我
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+你好!欢迎来到我的个人博客.👋
+
+## 我是谁
+
+我是一个热爱技术与分享的创作者,在这里记录我的学习历程、技术思考和生活中的点滴灵感.这个博客是我与世界对话的窗口,也是我成长轨迹的见证.
+
+## 我的兴趣领域
+
+- 💻 **编程开发** - 探索前沿技术,分享实用的开发技巧
+- 🚀 **技术创新** - 关注AI、Web开发、云原生等技术趋势  
+- 📚 **持续学习** - 在知识的海洋中不断前行
+- ✍️ **内容创作** - 用文字记录思考,用代码实现想法
+
+## 这个博客的特色
+
+本站基于 **Astro** 框架构建,采用现代化的设计理念,提供：
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
+- 📱 完美的响应式体验
+- 🌓 自动深色/浅色主题
+- 🔎 强大的全文搜索功能
+- ⚡ 极速的加载性能
+- 📖 优雅的阅读体验
 
-## 🌟 Theme Features
+## 联系我
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+如果你有任何想法、建议,或者只是想打个招呼,都非常欢迎与我联系!
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+**邮箱**：📧 mc@xhani.top
 
-
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+我会认真阅读每一封邮件,并尽快回复.
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+*感谢你的到访,希望这里的内容能为你带来一些启发或帮助.让我们在技术的道路上共同成长!* ✨

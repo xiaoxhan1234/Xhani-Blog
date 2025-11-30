@@ -15,7 +15,7 @@ import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
-import { expressiveCodeConfig, siteConfig } from "./src/config.ts";
+import { expressiveCodeConfig } from "./src/config.ts";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
@@ -27,7 +27,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.siteURL,
+	site: "https://blog.zako.wf/",
 
 	base: "/",
 	trailingSlash: "always",
@@ -63,11 +63,10 @@ export default defineConfig({
 				"fa6-regular": ["*"],
 				"fa6-solid": ["*"],
 				mdi: ["*"],
-				"simple-icons": ["*"],
 			},
 		}),
 		expressiveCode({
-			themes: ["github-light", "github-dark"],
+			themes: [expressiveCodeConfig.theme, expressiveCodeConfig.theme],
 			plugins: [
 				pluginCollapsibleSections(),
 				pluginLineNumbers(),
@@ -79,18 +78,6 @@ export default defineConfig({
 				overridesByLang: {
 					shellsession: {
 						showLineNumbers: false,
-					},
-					bash: {
-						frame: 'code',
-					},
-					shell: {
-						frame: 'code',
-					},
-					sh: {
-						frame: 'code',
-					},
-					zsh: {
-						frame: 'code',
 					},
 				},
 			},
@@ -105,12 +92,12 @@ export default defineConfig({
 				frames: {
 					editorBackground: "var(--codeblock-bg)",
 					terminalBackground: "var(--codeblock-bg)",
-					terminalTitlebarBackground: "var(--codeblock-bg)",
-					editorTabBarBackground: "var(--codeblock-bg)",
+					terminalTitlebarBackground: "var(--codeblock-topbar-bg)",
+					editorTabBarBackground: "var(--codeblock-topbar-bg)",
 					editorActiveTabBackground: "none",
 					editorActiveTabIndicatorBottomColor: "var(--primary)",
 					editorActiveTabIndicatorTopColor: "none",
-					editorTabBarBorderBottomColor: "var(--codeblock-bg)",
+					editorTabBarBorderBottomColor: "var(--codeblock-topbar-bg)",
 					terminalTitlebarBorderBottomColor: "none",
 				},
 				textMarkers: {

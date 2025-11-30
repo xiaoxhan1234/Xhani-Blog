@@ -1,5 +1,3 @@
-export {};
-
 declare global {
 	interface HTMLElementTagNameMap {
 		"table-of-contents": HTMLElement & {
@@ -10,7 +8,6 @@ declare global {
 	interface Window {
 		// Define swup type directly since @swup/astro doesn't export AstroIntegration
 		swup: any;
-		closeAnnouncement: () => void;
 		pagefind: {
 			search: (query: string) => Promise<{
 				results: Array<{
