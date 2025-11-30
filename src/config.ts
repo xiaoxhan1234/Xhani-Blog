@@ -22,7 +22,6 @@ const SITE_TIMEZONE =8;//设置你的网站时区 from -12 to 12 default in UTC+
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
 
 	timeZone: SITE_TIMEZONE,
 	
@@ -63,9 +62,9 @@ export const siteConfig: SiteConfig = {
 	// 文章列表布局配置
 	postListLayout: {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
-		defaultMode: "list",
+		defaultMode: "grid",
 		// 是否允许用户切换布局
-		allowSwitch: false,
+		allowSwitch: true,
 	},
 
 	// 标签样式配置
