@@ -1,14 +1,5 @@
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
-import type { CollectionEntry } from "astro:content";
-
-/**
- * 移除文件扩展名（.md, .mdx, .markdown）
- * 用于将 Astro v5 Content Layer API 的 id 转换为 URL 友好的 slug
- */
-export function removeFileExtension(id: string): string {
-	return id.replace(/\.(md|mdx|markdown)$/i, '');
-}
 
 export function pathsEqual(path1: string, path2: string) {
 	const normalizedPath1 = path1.replace(/^\/|\/$/g, "").toLowerCase();
@@ -22,24 +13,7 @@ function joinUrl(...parts: string[]): string {
 }
 
 export function getPostUrlBySlug(slug: string): string {
-	// 移除文件扩展名（如 .md, .mdx 等）
-	const slugWithoutExt = removeFileExtension(slug);
-	return url(`/posts/${slugWithoutExt}/`);
-}
-
-export function getPostUrlByPermalink(permalink: string): string {
-	// 移除开头的斜杠并确保固定链接在 /posts/ 路径下
-	const cleanPermalink = permalink.replace(/^\/+/, '');
-	return url(`/posts/${cleanPermalink}/`);
-}
-
-export function getPostUrl(post: CollectionEntry<"posts">): string {
-	// 如果文章有自定义固定链接，优先使用固定链接
-	if (post.data.permalink) {
-		return getPostUrlByPermalink(post.data.permalink);
-	}
-	// 否则使用默认的 slug 路径
-	return getPostUrlBySlug(post.id);
+	return url(`/posts/${slug}/`);
 }
 
 export function getTagUrl(tag: string): string {
@@ -58,17 +32,11 @@ export function getCategoryUrl(category: string | null): string {
 }
 
 export function getDir(path: string): string {
-	// 移除文件扩展名
-	const pathWithoutExt = removeFileExtension(path);
-	const lastSlashIndex = pathWithoutExt.lastIndexOf("/");
+	const lastSlashIndex = path.lastIndexOf("/");
 	if (lastSlashIndex < 0) {
 		return "/";
 	}
-	return pathWithoutExt.substring(0, lastSlashIndex + 1);
-}
-
-export function getFileDirFromPath(filePath: string): string {
-	return filePath.replace(/^src\//, '').replace(/\/[^\/]+$/, '');
+	return path.substring(0, lastSlashIndex + 1);
 }
 
 export function url(path: string) {

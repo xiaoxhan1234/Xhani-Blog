@@ -4,7 +4,6 @@ import * as fs from "node:fs";
 import type { APIContext, GetStaticPaths } from "astro";
 import satori from "satori";
 import sharp from "sharp";
-import { removeFileExtension } from "@/utils/url-utils";
 
 import { profileConfig, siteConfig } from "../../config";
 
@@ -27,14 +26,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	const allPosts = await getCollection("posts");
 	const publishedPosts = allPosts.filter((post) => !post.data.draft);
 
-	return publishedPosts.map((post) => {
-		// 将 id 转换为 slug（移除扩展名）以匹配路由参数
-		const slug = removeFileExtension(post.id);
-		return {
-			params: { slug },
-			props: { post },
-		};
-	});
+	return publishedPosts.map((post) => ({
+		params: { slug: post.slug },
+		props: { post },
+	}));
 };
 
 let fontCache: { regular: Buffer | null; bold: Buffer | null } | null = null;
@@ -109,7 +104,7 @@ export async function GET({
 	const avatarBuffer = fs.readFileSync(`./src/${profileConfig.avatar}`);
 	const avatarBase64 = `data:image/png;base64,${avatarBuffer.toString("base64")}`;
 
-	let iconPath = "./public/favicon/favicon.ico";
+	let iconPath = "./public/favicon/favicon-dark-192.png";
 	if (siteConfig.favicon.length > 0) {
 		iconPath = `./public${siteConfig.favicon[0].src}`;
 	}
