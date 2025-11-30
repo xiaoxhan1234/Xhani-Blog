@@ -426,7 +426,7 @@ export const footerConfig: FooterConfig = {
  */
 export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// 侧边栏位置：单侧(unilateral)或双侧(both)
-	position: "unilateral",
+	position: "left",
 
 	// 侧边栏组件配置列表
 	components: [
