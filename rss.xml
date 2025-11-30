@@ -1,57 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Mizuki</title><description>One demo website</description><link>https://mizuki.mysqil.com/</link><language>en</language><item><title>Amachiromaker &amp; 捏脸网站</title><link>https://mizuki.mysqil.com/posts/nachoneko/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/nachoneko/</guid><description>被甘城猫猫下线的捏脸网站.   **有重大更新**</description><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;项目简介&lt;/h1&gt;
-&lt;p&gt;::github{repo=&quot;NekoQiye/RE-Amachiromaker&quot;}&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Amachiromaker&lt;/strong&gt;&lt;/em&gt; 是一个用于创建和自定义&lt;strong&gt;二次元&lt;/strong&gt;角色形象的网站,它提供了一系列功能，让用户可以自由调整角色的&lt;strong&gt;面部特征、发型、服装&lt;/strong&gt;等。&lt;img src=&quot;./%E8%A7%92%E8%89%B2%E5%B1%95%E7%A4%BA%E5%9B%BE.png&quot; alt=&quot;角色展示图.png&quot; title=&quot;角色展示图.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;网站信息&lt;/h1&gt;
-&lt;h2&gt;网站名称&lt;/h2&gt;
-&lt;p&gt;✨&lt;strong&gt;甘城猫猫捏脸网站&lt;/strong&gt;✨&lt;/p&gt;
-&lt;h2&gt;功能描述&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在线捏脸网站&lt;/li&gt;
-&lt;li&gt;支持&lt;strong&gt;超多装扮&lt;/strong&gt;自定义组合&lt;/li&gt;
-&lt;li&gt;可下载&lt;em&gt;&lt;strong&gt;预设模板&lt;/strong&gt;&lt;/em&gt;和&lt;em&gt;PSD&lt;/em&gt;保存选项&lt;/li&gt;
-&lt;li&gt;拥有&lt;strong&gt;一键重置&lt;/strong&gt;
-&lt;img src=&quot;./%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA%E5%9B%BE.png&quot; alt=&quot;功能展示图.png&quot; title=&quot;功能展示图.png&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h1&gt;使用说明&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;打开&lt;strong&gt;浏览器&lt;/strong&gt;,访问&lt;a href=&quot;https://nacho.zako.wf&quot;&gt;nacho.zako.wf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;下载或上传角色预设（如果需要）&lt;/li&gt;
-&lt;li&gt;使用提供的&lt;strong&gt;多种装饰&lt;/strong&gt;调整&lt;strong&gt;面部特征&lt;/strong&gt;、&lt;strong&gt;发型&lt;/strong&gt;、&lt;strong&gt;服装&lt;/strong&gt;、&lt;strong&gt;表情&lt;/strong&gt;等&lt;/li&gt;
-&lt;li&gt;使用下载预设导出角色模板或保存&lt;em&gt;&lt;strong&gt;PNG&lt;/strong&gt;&lt;/em&gt;自定义的角色形象&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr /&gt;
-&lt;h1&gt;预计网站更新[&lt;code&gt;现已更新&lt;/code&gt;]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://mizuki.mysqil.com/_astro/bili.C_DssnEM_ZImBEn.webp&quot; alt=&quot;预计网站更新.png&quot; title=&quot;预计网站更新.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;是的没错,这正是该&lt;em&gt;&lt;strong&gt;框架改版作者&lt;/strong&gt;&lt;/em&gt;所述,在推出新版&lt;em&gt;&lt;strong&gt;Release&lt;/strong&gt;&lt;/em&gt;之后,&lt;strong&gt;捏脸网站&lt;/strong&gt;即会马上&lt;strong&gt;更新&lt;/strong&gt;。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;新增功能说明&lt;/h1&gt;
-&lt;h2&gt;用户同意协议&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;首次&lt;strong&gt;访问时&lt;/strong&gt;会显示用&lt;strong&gt;用户协议&lt;/strong&gt;弹窗.
-(&lt;em&gt;&lt;strong&gt;同意之后不会再显示&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;明确&lt;/strong&gt;&lt;/em&gt;说明&lt;strong&gt;数据使用&lt;/strong&gt;和&lt;strong&gt;隐私保护&lt;/strong&gt;政策.&lt;/li&gt;
-&lt;li&gt;用户需要&lt;strong&gt;同意协议&lt;/strong&gt;后才能使用网站功能.
-&lt;s&gt;(&lt;em&gt;不同意就跳转宝宝巴士&lt;/em&gt;)&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;协议内容涵盖&lt;em&gt;&lt;strong&gt;版权声明、使用规范&lt;/strong&gt;&lt;/em&gt;.
-&lt;img src=&quot;./%E5%8D%8F%E8%AE%AE.jpg&quot; alt=&quot;协议.jpg&quot; title=&quot;协议.jpg&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;网站底部信息&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;网站底部现已添加更多更完整的信息：&lt;/strong&gt;
-&lt;img src=&quot;./%E5%BA%95%E9%83%A8%E4%BF%A1%E6%81%AF.jpg&quot; alt=&quot;底部信息.jpg&quot; title=&quot;底部信息.jpg&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;注意事项&lt;/h1&gt;
-&lt;p&gt;:::note[]
-请确保访问的是正确网站,避免钓鱼或恶意网站.
-:::
-:::important[]
-如果网站无法访问,请联系邮箱mc@xhani.top
-:::
-:::caution[]
-请遵守相关法律法规,不得用于非法用途.
-:::&lt;/p&gt;
-</content:encoded></item><item><title>Markdown Tutorial</title><link>https://mizuki.mysqil.com/posts/markdown-tutorial/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/markdown-tutorial/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown Tutorial&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Mizuki</title><description>One demo website</description><link>https://mizuki.mysqil.com/</link><language>en</language><item><title>Markdown Tutorial</title><link>https://mizuki.mysqil.com/posts/markdown-tutorial/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/markdown-tutorial/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown Tutorial&lt;/h1&gt;
 &lt;p&gt;A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#block-elements&quot;&gt;Block Elements&lt;/a&gt;
@@ -761,12 +708,298 @@ This is another regular paragraph.
 &lt;strong&gt;No Work&lt;/strong&gt;
 &amp;lt;/div&amp;gt;&lt;/p&gt;
 &lt;hr /&gt;
-</content:encoded></item><item><title>QQ乱码戳一戳</title><link>https://mizuki.mysqil.com/posts/luanma/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/luanma/</guid><description>想要别人在戳你时变成一串乱码吗?</description><pubDate>Sun, 09 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;QQ乱码戳一戳&lt;/h1&gt;
-&lt;hr /&gt;
-&lt;h3&gt;具体内容还未写&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;先&lt;em&gt;看看&lt;/em&gt;来自&lt;em&gt;&lt;strong&gt;一只呆呆的猫&lt;/strong&gt;&lt;/em&gt;的晒图叭
-&lt;img src=&quot;./%E4%B8%80%E5%8F%AA%E5%91%86%E5%91%86%E7%9A%84%E7%8C%AB.jpg&quot; alt=&quot;一只呆呆的猫.jpg&quot; title=&quot;一只呆呆的猫.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;完整图&lt;/em&gt;
-&lt;img src=&quot;https://mizuki.mysqil.com/_astro/nya.aJQ_jcWg_Z1B87XA.webp&quot; alt=&quot;nya.jpg&quot; title=&quot;nya.jpg&quot; /&gt;&lt;/p&gt;
+</content:encoded></item><item><title>Markdown Extended Features</title><link>https://mizuki.mysqil.com/posts/markdown-extended/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/markdown-extended/</guid><description>Read more about Markdown features in Mizuki</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub Repository Cards&lt;/h2&gt;
+&lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;matsuzaka-yuki/Mizuki&quot;}&lt;/p&gt;
+&lt;p&gt;Create a GitHub repository card with the code &lt;code&gt;::github{repo=&quot;matsuzaka-yuki/Mizuki&quot;}&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;::github{repo=&quot;matsuzaka-yuki/Mizuki&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Admonitions&lt;/h2&gt;
+&lt;p&gt;Following types of admonitions are supported: &lt;code&gt;note&lt;/code&gt; &lt;code&gt;tip&lt;/code&gt; &lt;code&gt;important&lt;/code&gt; &lt;code&gt;warning&lt;/code&gt; &lt;code&gt;caution&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;:::note
+Highlights information that users should take into account, even when skimming.
+:::&lt;/p&gt;
+&lt;p&gt;:::tip
+Optional information to help a user be more successful.
+:::&lt;/p&gt;
+&lt;p&gt;:::important
+Crucial information necessary for users to succeed.
+:::&lt;/p&gt;
+&lt;p&gt;:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::&lt;/p&gt;
+&lt;p&gt;:::caution
+Negative potential consequences of an action.
+:::&lt;/p&gt;
+&lt;h3&gt;Basic Syntax&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Custom Titles&lt;/h3&gt;
+&lt;p&gt;The title of the admonition can be customized.&lt;/p&gt;
+&lt;p&gt;:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;GitHub Syntax&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]
+&lt;a href=&quot;https://github.com/orgs/community/discussions/16925&quot;&gt;The GitHub syntax&lt;/a&gt; is also supported.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; [!NOTE]
+&amp;gt; The GitHub syntax is also supported.
+
+&amp;gt; [!TIP]
+&amp;gt; The GitHub syntax is also supported.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Spoiler&lt;/h3&gt;
+&lt;p&gt;You can add spoilers to your text. The text also supports &lt;strong&gt;Markdown&lt;/strong&gt; syntax.&lt;/p&gt;
+&lt;p&gt;The content :spoiler[is hidden &lt;strong&gt;ayyy&lt;/strong&gt;]!&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The content :spoiler[is hidden **ayyy**]!&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>Simple Guides for Mizuki</title><link>https://mizuki.mysqil.com/posts/guide/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This blog template is built with &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;. For the things that are not mentioned in this guide, you may find the answers in the &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro Docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Front-matter of Posts&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Attribute&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The title of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;published&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The date the post was published.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;pinned&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Whether this post is pinned to the top of the post list.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;A short description of the post. Displayed on index page.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The cover image path of the post.&amp;lt;br/&amp;gt;1. Start with &lt;code&gt;http://&lt;/code&gt; or &lt;code&gt;https://&lt;/code&gt;: Use web image&amp;lt;br/&amp;gt;2. Start with &lt;code&gt;/&lt;/code&gt;: For image in &lt;code&gt;public&lt;/code&gt; dir&amp;lt;br/&amp;gt;3. With none of the prefixes: Relative to the markdown file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tags&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The tags of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;category&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The category of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;licenseName&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The license name for the post content.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The author of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;sourceLink&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The source link or reference for the post content.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;draft&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;If this post is still a draft, which won&apos;t be displayed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Where to Place the Post Files&lt;/h2&gt;
+&lt;p&gt;Your post files should be placed in &lt;code&gt;src/content/posts/&lt;/code&gt; directory. You can also create sub-directories to better organize your posts and assets.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;src/content/posts/
+├── post-1.md
+└── post-2/
+    ├── cover.png
+    └── index.md
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>Markdown Mermaid</title><link>https://mizuki.mysqil.com/posts/markdown-mermaid/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/markdown-mermaid/</guid><description>A simple example of a Markdown blog post with Mermaid.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Complete Guide to Markdown with Mermaid Diagrams&lt;/h1&gt;
+&lt;p&gt;This article demonstrates how to create various complex diagrams using Mermaid in Markdown documents, including flowcharts, sequence diagrams, Gantt charts, class diagrams, and state diagrams.&lt;/p&gt;
+&lt;h2&gt;Flowchart Example&lt;/h2&gt;
+&lt;p&gt;Flowcharts are excellent for representing processes or algorithm steps.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;graph TD
+    A[Start] --&amp;gt; B{Condition Check}
+    B --&amp;gt;|Yes| C[Process Step 1]
+    B --&amp;gt;|No| D[Process Step 2]
+    C --&amp;gt; E[Subprocess]
+    D --&amp;gt; E
+    subgraph E [Subprocess Details]
+        E1[Substep 1] --&amp;gt; E2[Substep 2]
+        E2 --&amp;gt; E3[Substep 3]
+    end
+    E --&amp;gt; F{Another Decision}
+    F --&amp;gt;|Option 1| G[Result 1]
+    F --&amp;gt;|Option 2| H[Result 2]
+    F --&amp;gt;|Option 3| I[Result 3]
+    G --&amp;gt; J[End]
+    H --&amp;gt; J
+    I --&amp;gt; J
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Sequence Diagram Example&lt;/h2&gt;
+&lt;p&gt;Sequence diagrams show interactions between objects over time.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sequenceDiagram
+    participant User
+    participant WebApp
+    participant Server
+    participant Database
+
+    User-&amp;gt;&amp;gt;WebApp: Submit Login Request
+    WebApp-&amp;gt;&amp;gt;Server: Send Auth Request
+    Server-&amp;gt;&amp;gt;Database: Query User Credentials
+    Database--&amp;gt;&amp;gt;Server: Return User Data
+    Server--&amp;gt;&amp;gt;WebApp: Return Auth Result
+    
+    alt Auth Successful
+        WebApp-&amp;gt;&amp;gt;User: Show Welcome Page
+        WebApp-&amp;gt;&amp;gt;Server: Request User Data
+        Server-&amp;gt;&amp;gt;Database: Get User Preferences
+        Database--&amp;gt;&amp;gt;Server: Return Preferences
+        Server--&amp;gt;&amp;gt;WebApp: Return User Data
+        WebApp-&amp;gt;&amp;gt;User: Load Personalized Interface
+    else Auth Failed
+        WebApp-&amp;gt;&amp;gt;User: Show Error Message
+        WebApp-&amp;gt;&amp;gt;User: Prompt Re-entry
+    end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Gantt Chart Example&lt;/h2&gt;
+&lt;p&gt;Gantt charts are perfect for displaying project schedules and timelines.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gantt
+    title Website Development Project Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m/%d
+    
+    section Design Phase
+    Requirements Analysis      :a1, 2023-10-01, 7d
+    UI Design                 :a2, after a1, 10d
+    Prototype Creation        :a3, after a2, 5d
+    
+    section Development Phase
+    Frontend Development      :b1, 2023-10-20, 15d
+    Backend Development       :b2, after a2, 18d
+    Database Design           :b3, after a1, 12d
+    
+    section Testing Phase
+    Unit Testing              :c1, after b1, 8d
+    Integration Testing       :c2, after b2, 10d
+    User Acceptance Testing   :c3, after c2, 7d
+    
+    section Deployment
+    Production Deployment     :d1, after c3, 3d
+    Launch                    :milestone, after d1, 0d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Class Diagram Example&lt;/h2&gt;
+&lt;p&gt;Class diagrams show the static structure of a system, including classes, attributes, methods, and their relationships.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;classDiagram
+    class User {
+        +String username
+        +String password
+        +String email
+        +Boolean active
+        +login()
+        +logout()
+        +updateProfile()
+    }
+    
+    class Article {
+        +String title
+        +String content
+        +Date publishDate
+        +Boolean published
+        +publish()
+        +edit()
+        +delete()
+    }
+    
+    class Comment {
+        +String content
+        +Date commentDate
+        +addComment()
+        +deleteComment()
+    }
+    
+    class Category {
+        +String name
+        +String description
+        +addArticle()
+        +removeArticle()
+    }
+    
+    User &quot;1&quot; -- &quot;*&quot; Article : writes
+    User &quot;1&quot; -- &quot;*&quot; Comment : posts
+    Article &quot;1&quot; -- &quot;*&quot; Comment : has
+    Article &quot;1&quot; -- &quot;*&quot; Category : belongs to
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;State Diagram Example&lt;/h2&gt;
+&lt;p&gt;State diagrams show the sequence of states an object goes through during its life cycle.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;stateDiagram-v2
+    [*] --&amp;gt; Draft
+    
+    Draft --&amp;gt; UnderReview : submit
+    UnderReview --&amp;gt; Draft : reject
+    UnderReview --&amp;gt; Approved : approve
+    Approved --&amp;gt; Published : publish
+    Published --&amp;gt; Archived : archive
+    Published --&amp;gt; Draft : retract
+    
+    state Published {
+        [*] --&amp;gt; Active
+        Active --&amp;gt; Hidden : temporarily hide
+        Hidden --&amp;gt; Active : restore
+        Active --&amp;gt; [*]
+        Hidden --&amp;gt; [*]
+    }
+    
+    Archived --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Pie Chart Example&lt;/h2&gt;
+&lt;p&gt;Pie charts are ideal for displaying proportions and percentage data.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pie title Website Traffic Sources Analysis
+    &quot;Search Engines&quot; : 45.6
+    &quot;Direct Access&quot; : 30.1
+    &quot;Social Media&quot; : 15.3
+    &quot;Referral Links&quot; : 6.4
+    &quot;Other Sources&quot; : 2.6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Mermaid is a powerful tool for creating various types of diagrams in Markdown documents. This article demonstrated how to use flowcharts, sequence diagrams, Gantt charts, class diagrams, state diagrams, and pie charts. These diagrams can help you express complex concepts, processes, and data structures more clearly.&lt;/p&gt;
+&lt;p&gt;To use Mermaid, simply specify the mermaid language in a code block and describe the diagram using concise text syntax. Mermaid will automatically convert these descriptions into beautiful visual diagrams.&lt;/p&gt;
+&lt;p&gt;Try using Mermaid diagrams in your next technical blog post or project documentation - they will make your content more professional and easier to understand!&lt;/p&gt;
+</content:encoded></item><item><title>Include Video in the Posts</title><link>https://mizuki.mysqil.com/posts/video/</link><guid isPermaLink="true">https://mizuki.mysqil.com/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: Include Video in the Post
+published: 2023-10-19
+// ...
+---
+
+&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;YouTube&lt;/h2&gt;
+&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Bilibili&lt;/h2&gt;
+&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&amp;amp;p=1&amp;amp;autoplay=0&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; &amp;amp;autoplay=0&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/p&gt;
 </content:encoded></item></channel></rss>
