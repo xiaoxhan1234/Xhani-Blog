@@ -42,7 +42,6 @@ enum I18nKey {
 	friends = "friends",
 	anime = "anime",
 	diary = "diary",
-	gallery = "gallery",
 
 	// 番剧页面
 	animeTitle = "animeTitle",

@@ -94,7 +94,7 @@ if (!banner || typeof banner !== "string" || banner.trim() === "") {
 // TODO don't use post cover as banner for now
 banner = getDefaultBanner();
 
-const enableBanner = siteConfig.wallpaperMode.defaultMode === "banner";
+const enableBanner = siteConfig.banner.enable;
 
 let pageTitle: string;
 if (title) {
@@ -797,7 +797,7 @@ function initCustomScrollbar() {
 }
 
 function showBanner() {
-	if (siteConfig.wallpaperMode.defaultMode !== "banner") return;
+	if (!siteConfig.banner.enable) return;
 
 	// 使用requestAnimationFrame优化DOM操作
 	requestAnimationFrame(() => {
@@ -828,7 +828,7 @@ function initCarousel() {
 	const carouselItems = document.querySelectorAll('.carousel-item');
 	
 	// 根据屏幕尺寸过滤有效的轮播项
-	const isMobile = window.innerWidth < 1280; // lg breakpoint
+	const isMobile = window.innerWidth < 1024; // lg breakpoint
 	const validItems = Array.from(carouselItems).filter(item => {
 		if (isMobile) {
 			// 移动端：只显示有mobile图片的项目
