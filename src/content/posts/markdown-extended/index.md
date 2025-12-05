@@ -120,5 +120,5 @@ draft: false
 内容:spoiler[被隐藏了**哎呀**]!
 
 ```markdown
-内容:spoiler被隐藏了**哎呀**]!
+:spoiler[被隐藏了**哎呀**]!
 ```
