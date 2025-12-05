@@ -53,9 +53,29 @@ draft: false
 :::note[笔记]
 突出显示用户即使在浏览时也应考虑的信息.
 :::
+```
 
+```markdown
 :::tip[提示]
 帮助用户取得更大成功的可选信息.
+:::
+```
+
+```markdown
+:::important[重要的]
+用户成功所需的关键信息.
+:::
+```
+
+```markdown
+:::warning[警告]
+由于潜在风险，需要用户立即关注的关键内容.
+:::
+```
+
+```markdown
+:::caution[谨慎]
+行动的潜在负面后果.
 :::
 ```
 
@@ -75,16 +95,14 @@ draft: false
 
 ### GitHub语法
 
-> [!TIP]
+> [!TIP] 提示
 > [GitHub语法](https://github.com/orgs/community/discussions/16925) 也支持.
 
-**但这个就没办法更改显示的TIP了**
-
 ```
-> [!NOTE]
+> [!NOTE] 笔记
 > GitHub语法也受支持.
 
-> [!TIP]
+> [!TIP] 提示
 > GitHub语法也受支持.
 ```
 
@@ -96,3 +114,4 @@ draft: false
 
 ```markdown
 内容 :spoiler被隐藏了**哎呀**]!
+```
