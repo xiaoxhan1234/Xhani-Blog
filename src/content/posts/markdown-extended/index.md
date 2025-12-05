@@ -29,34 +29,32 @@ draft: false
 突出显示用户即使在浏览时也应考虑的信息.
 :::
 
-:::tip
+:::tip[提示]
 帮助用户取得更大成功的可选信息.
 :::
 
-:::important
+:::important[重要的]
 用户成功所需的关键信息.
 :::
 
-:::warning
+:::warning[警告]
 由于潜在风险，需要用户立即关注的关键内容.
 :::
 
-:::caution
+:::caution[谨慎]
 行动的潜在负面后果.
 :::
 
 
-> [!NOTE] Title
-> Contents
 
 ### 基本语法
 
 ```markdown
-:::note
+:::note[笔记]
 突出显示用户即使在浏览时也应考虑的信息.
 :::
 
-:::tip
+:::tip[提示]
 帮助用户取得更大成功的可选信息.
 :::
 ```
@@ -77,7 +75,7 @@ draft: false
 
 ### GitHub语法
 
-> [!TIP][提示]
+:::tip[提示]
 > [GitHub语法](https://github.com/orgs/community/discussions/16925) 也支持.
 
 ```
