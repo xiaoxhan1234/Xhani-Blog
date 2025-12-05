@@ -95,23 +95,31 @@ draft: false
 
 ### GitHub语法
 
-> [!TIP] 提示
+> [!TIP]
 > [GitHub语法](https://github.com/orgs/community/discussions/16925) 也支持.
 
+
 ```
-> [!NOTE] 笔记
+> [!NOTE]
 > GitHub语法也受支持.
 
-> [!TIP] 提示
+> [!TIP]
 > GitHub语法也受支持.
 ```
+
+**`但是没办法更改TIP显示了`**
+==**但是没办法更改TIP显示了**==
+:::tip[提示]
+`但是没办法更改TIP显示了`
+:::
+
 
 ### 剧透
 
 您可以为文本添加剧透效果,该文本也支持 **Markdown** 语法.
 
-内容 :spoiler[被隐藏了**哎呀**]!
+内容:spoiler[被隐藏了**哎呀**]!
 
 ```markdown
-内容 :spoiler被隐藏了**哎呀**]!
+内容:spoiler被隐藏了**哎呀**]!
 ```
