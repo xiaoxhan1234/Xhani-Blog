@@ -1,16 +1,12 @@
 ---
 title: Markdown 扩展语法
 published: 2025-12-06
-updated: 
-pinned: 
+pinned: false
 description: 在XhaniのBlog中阅读更多关于 Markdown扩展语法的信息
 tags: [Markdown, XhaniのBlog, Markdown扩展语法]
 category: Markdown扩展语法
-licenseName: ""
 author: XiaoXhan1234
-sourceLink: ""
 draft: false
-image: 
 ---
 
 
