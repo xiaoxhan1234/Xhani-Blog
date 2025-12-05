@@ -75,8 +75,10 @@ draft: false
 
 ### GitHub语法
 
-:::tip[提示]
+> [!TIP]
 > [GitHub语法](https://github.com/orgs/community/discussions/16925) 也支持.
+
+**但这个就没办法更改显示的TIP了**
 
 ```
 > [!NOTE]
