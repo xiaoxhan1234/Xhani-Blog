@@ -1,29 +1,24 @@
 ---
-title: QQ乱码戳一戳
+title: 乱码戳一戳
 published: 2025-11-09
-pinned: false
+updated: 2025-12-06
 description: 想要别人在戳你时变成一串乱码吗?
-tags: [Tencent, QQ, 戳一戳, Markdown] 
-category: 资源分享
+tags: [Tencent, 戳一戳, Markdown, 乱码]
+category: 教程
 licenseName: ""
 author: XiaoXhan1234
 sourceLink: ""
 draft: false
-image: ./戳戳乱码.jpg
+image: ./戳戳乱码封面.jpg
 ---
 
-# QQ乱码戳一戳
+# 准备工作
+
+:::important[重要的]
+**首先你要有一个聪明灵活的:spoiler脑子]!要自己熟悉这个戳一戳编辑界面在哪里.**
+:::
+
+**路径**：~~设置/通用/头像双击动作设置~~
 
 ---
-
-### 具体内容还未写
-
----
-
-先*看看*来自***一只呆呆的猫***的晒图叭
-![一只呆呆的猫.jpg](./一只呆呆的猫.jpg "一只呆呆的猫.jpg")
-
-*完整图*
-![nya.jpg](./nya.jpg "nya.jpg")
-
 
