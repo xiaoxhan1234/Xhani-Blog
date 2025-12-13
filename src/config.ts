@@ -99,8 +99,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/d6.webp",
 				"/assets/desktop-banner/d7.webp",
 				"/assets/desktop-banner/d8.webp",
-				"/assets/desktop-banner/d9.webp",
-				"/assets/desktop-banner/d10.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -119,7 +117,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/m14.webp",
 				"/assets/mobile-banner/m15.webp",
 				"/assets/mobile-banner/m16.webp",
-				"/assets/mobile-banner/m17.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -128,7 +125,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 1.5, // 轮播间隔时间（秒）
+			interval: 15, // 轮播间隔时间（秒）
 		},
 
 		waves: {
