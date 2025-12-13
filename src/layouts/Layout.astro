@@ -6,6 +6,7 @@ import "@fontsource/roboto/700.css";
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import MusicPlayer from "@components/widget/MusicPlayer.svelte";
 import Pio from "@components/widget/Pio.svelte"; // 使用 Svelte 版本的 Pio 组件
+import SpeedInsights from "@vercel/speed-insights/astro";
 import { profileConfig, siteConfig, musicPlayerConfig, pioConfig } from "@/config";
 import { widgetConfigs } from "../config";
 import { umamiConfig } from "../config.ts";
@@ -593,7 +594,7 @@ const umamiScripts = umamiConfig.scripts || ""; // 获取Umami scripts配置
 			</script>
 		)}
 		
-		
+		<SpeedInsights />
 	</body>
 </html>
 
