@@ -44,6 +44,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://a1235789i.zako.wf/",
 		tags: ["Add-On汉化", "Home", "Minecraft"],
 	},
+	{
+		id: 5,
+		title: "HeroicEl065925",
+		imgurl: "https://heroicel065925.zako.wf/favicon.ico",
+		desc: "HeroicEl065925,Minecraft&觉醒光碟",
+		siteurl: "https://HeroicEl065925.zako.wf/",
+		tags: ["觉醒光碟", "Home", "Minecraft"],
+	},
 ];
 
 // 获取所有友情链接数据
