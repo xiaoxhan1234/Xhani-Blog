@@ -449,7 +449,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件显示顺序
 			order: 4,
 			// 组件位置："sticky" 表示粘性定位
-			position: "top",
+			position: "sticky",
 			// CSS 类名
 			class: "onload-animation",
 			// 动画延迟时间
