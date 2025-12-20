@@ -1,11 +1,14 @@
 <script lang="ts">
 import { onMount } from "svelte";
-import { siteConfig } from "../config";
+import { siteConfig, sidebarLayoutConfig } from "../config";
 
 export let currentLayout: "list" | "grid" = "list";
 
 let mounted = false;
 let isSmallScreen = false;
+
+// 检查是否启用双侧边栏
+const isBothSidebars = sidebarLayoutConfig.position === "both";
 
 function checkScreenSize() {
 	isSmallScreen = window.innerWidth < 1200;
