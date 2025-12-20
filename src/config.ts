@@ -384,7 +384,7 @@ export const footerConfig: FooterConfig = {
  */
 export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// 侧边栏位置：单侧(unilateral)或双侧(both)
-	position: "unilateral",
+	position: "both",
 
 	// 侧边栏组件配置列表
 	components: [
@@ -449,7 +449,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件显示顺序
 			order: 4,
 			// 组件位置："sticky" 表示粘性定位
-			position: "sticky",
+			position: "top",
 			// CSS 类名
 			class: "onload-animation",
 			// 动画延迟时间
