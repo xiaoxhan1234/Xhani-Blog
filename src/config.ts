@@ -466,7 +466,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 5,
+			order: 6,
 			// 组件位置
 			position: "top",
 			// 所在侧边栏
@@ -482,7 +482,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 6,
+			order: 7,
 			// 组件位置
 			position: "top",
 			// 所在侧边栏
