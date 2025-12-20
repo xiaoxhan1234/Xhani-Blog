@@ -4,7 +4,7 @@ published: 2025-12-06
 pinned: false
 description: 在XhaniのBlog中阅读更多关于 Markdown扩展语法的信息
 tags: [Markdown, XhaniのBlog, Markdown扩展语法]
-category: Markdown扩展语法
+category: 教程
 author: XiaoXhan1234
 draft: false
 ---
