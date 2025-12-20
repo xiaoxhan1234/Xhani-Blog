@@ -59,25 +59,8 @@ export class WidgetManager {
 		let components = this.enabledComponents.filter(
 			(component) => component.position === position
 		);
-	}
-
-	/**
-	 * 获取组件的动画延迟时间
-	 * @param component 组件配置
-	 * @param index 组件在列表中的索引
-	 */
-	getAnimationDelay(component: WidgetComponentConfig, index: number): number {
-		if (component.animationDelay !== undefined) {
-			return component.animationDelay;
-		}
-
-		if (this.config.defaultAnimation.enable) {
-			return (
-				this.config.defaultAnimation.baseDelay +
-				index * this.config.defaultAnimation.increment
-			);
-			
-			// 如果指定了侧边栏位置，则进一步过滤
+		
+		// 如果指定了侧边栏位置，则进一步过滤
 		if (sidebar) {
 			components = components.filter((component) => {
 				// 如果组件没有指定 sidebar 属性,默认分配到左侧
@@ -97,6 +80,26 @@ export class WidgetManager {
 	}
 
 	/**
+	 * 获取组件的动画延迟时间
+	 * @param component 组件配置
+	 * @param index 组件在列表中的索引
+	 */
+	getAnimationDelay(component: WidgetComponentConfig, index: number): number {
+		if (component.animationDelay !== undefined) {
+			return component.animationDelay;
+		}
+
+		if (this.config.defaultAnimation.enable) {
+			return (
+				this.config.defaultAnimation.baseDelay +
+				index * this.config.defaultAnimation.increment
+			);
+		}
+
+		return 0;
+	}
+
+	/**
 	 * 获取组件的CSS类名
 	 * @param component 组件配置
 	 * @param index 组件在列表中的索引
@@ -108,7 +111,7 @@ export class WidgetManager {
 		if (component.class) {
 			classes.push(component.class);
 		}
-		
+
 		// 双侧边栏模式下，右侧边栏的组件在平板端自动隐藏
 		// 使用 Tailwind 标准断点：lg(1024px) 以下全部隐藏
 		if (this.config.position === "both" && component.sidebar === "right") {
