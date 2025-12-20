@@ -13,8 +13,8 @@ draft: false
 
 一篇Markdown教程展示了如何撰写 Markdown 文件.本文档涵盖了核心语法与扩展语法(GMF).
 
-- [块级元素](#block-elements)
-  - [段落与换行](#paragraphs-and-line-breaks)
+- [块级元素](#块级元素)
+  - [段落与换行](#段落与换行)
   - [标题](#headers)
   - [引用](#blockquotes)
   - [列表](#lists)
