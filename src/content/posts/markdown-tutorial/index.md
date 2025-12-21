@@ -1,6 +1,7 @@
 ---
 title: Markdown 教程
 published: 2025-12-20
+updated: 2025-12-21
 pinned: false
 description: 一个Markdown博客文章的简单示例.
 tags: [Markdown, XhaniのBlog, Markdown教程]
