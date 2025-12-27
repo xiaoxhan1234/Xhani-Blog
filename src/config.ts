@@ -282,7 +282,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "更多信息",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			children: [LinkPreset.About, LinkPreset.Friends,LinkPreset.Gallery],
 		},
 		{
       name: "统计",
