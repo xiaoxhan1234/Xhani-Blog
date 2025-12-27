@@ -282,7 +282,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "更多信息",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends,LinkPreset.Albums],
+			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
       name: "统计",
@@ -362,8 +362,8 @@ export const announcementConfig: AnnouncementConfig = {
 	link: {
 		enable: true, // 启用链接
 		text: "相册", // 链接文本
-		url: "/albums", // 链接 URL
-		external: true, // 内部链接
+		url: "/albums/", // 链接 URL
+		external: false, // 内部链接
 	},
 };
 
