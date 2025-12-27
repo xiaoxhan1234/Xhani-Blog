@@ -282,7 +282,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "更多信息",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			children: [LinkPreset.About, LinkPreset.Friends,LinkPreset.Albums],
 		},
 		{
       name: "统计",
@@ -358,12 +358,12 @@ export const commentConfig: CommentConfig = {
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
 	content: "blog添加新功能：左侧边栏添加了站点统计", // 公告内容
-	closable: false, // 允许用户关闭公告
+	closable: true, // 允许用户关闭公告
 	link: {
-		enable: false, // 启用链接
-		text: "", // 链接文本
-		url: "", // 链接 URL
-		external: false, // 内部链接
+		enable: true, // 启用链接
+		text: "相册", // 链接文本
+		url: "/albums", // 链接 URL
+		external: true, // 内部链接
 	},
 };
 
