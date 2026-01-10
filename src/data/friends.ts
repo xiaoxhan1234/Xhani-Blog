@@ -52,6 +52,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://HeroicEl065925.zako.wf/",
 		tags: ["觉醒光碟", "Home", "Minecraft"],
 	},
+	{
+		id: 6,
+		title: "Betsy Blog",
+		imgurl: "https://img.micostar.cc/images/avatar.webp",
+		desc: "爱我所爱，我们是彼此永远的动力",
+		siteurl: "https://www.micostar.cc/",
+		tags: ["Unity", "Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
