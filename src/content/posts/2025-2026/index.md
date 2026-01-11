@@ -2,7 +2,7 @@
 title: Happy New Year！
 published: 2026-01-01
 pinned: true
-description: 2025年依然过去,今年又是新的一年呢-2026
+description: 2025年已然过去,今年又是新的一年呢-2026
 tags: [跨年, 新年快乐, Markdown]
 category: 新年快乐
 licenseName: ""
