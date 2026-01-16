@@ -60,6 +60,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.micostar.cc/",
 		tags: ["Unity", "Blog"],
 	},
+	{
+		id: 7,
+		title: "LHL's Blog",
+		imgurl: "https://cdn.sa.net/2025/04/18/KXpf8u5SQYNPkA3.jpg",
+		desc: "想把海洋里所有鱼都握在手里，把森林里里所有花都插在心头.",
+		siteurl: "https://blog.lhl.one/",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
