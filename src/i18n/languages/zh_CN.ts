@@ -3,10 +3,16 @@ import type { Translation } from "../translation";
 
 export const zh_CN: Translation = {
 	[Key.home]: "主页",
-	[Key.about]: "关于",
+	[Key.about]: "关于我们",
 	[Key.archive]: "归档",
 	[Key.search]: "搜索",
 	[Key.other]: "其他",
+
+	// 导航栏标题
+	[Key.navLinks]: "链接",
+	[Key.navMy]: "我的",
+	[Key.navAbout]: "关于",
+	[Key.navOthers]: "其他",
 
 	[Key.tags]: "标签",
 	[Key.categories]: "分类",
@@ -20,6 +26,14 @@ export const zh_CN: Translation = {
 
 	[Key.comments]: "评论",
 	[Key.friends]: "友链",
+	[Key.friendsSubtitle]: "发现更多优秀网站",
+	[Key.friendsSearchPlaceholder]: "搜索友链名称或描述...",
+	[Key.friendsFilterAll]: "全部",
+	[Key.friendsNoResults]: "未找到匹配的友链",
+	[Key.friendsVisit]: "访问",
+	[Key.friendsCopyLink]: "复制链接",
+	[Key.friendsCopySuccess]: "已复制",
+	[Key.friendsTags]: "标签",
 	[Key.untitled]: "无标题",
 	[Key.uncategorized]: "未分类",
 	[Key.noTags]: "无标签",
@@ -87,6 +101,10 @@ export const zh_CN: Translation = {
 	[Key.albumsBackToList]: "返回相册",
 	[Key.albumsPhotoCount]: "张照片",
 	[Key.albumsPhotosCount]: "张照片",
+
+	// 设备页面
+	[Key.devices]: "我的设备",
+	[Key.devicesSubtitle]: "这里展示了我日常使用的各类设备",
 
 	// 项目展示页面
 	[Key.projects]: "项目展示",
@@ -202,12 +220,14 @@ export const zh_CN: Translation = {
 	[Key.rssCopyLink]: "复制链接",
 	[Key.rssLatestPosts]: "最新文章",
 	[Key.rssWhatIsRSS]: "什么是 RSS？",
-	[Key.rssWhatIsRSSDescription]: "RSS（Really Simple Syndication）是一种用于发布经常更新内容的标准格式。通过 RSS，你可以：",
+	[Key.rssWhatIsRSSDescription]:
+		"RSS（Really Simple Syndication）是一种用于发布经常更新内容的标准格式。通过 RSS，你可以：",
 	[Key.rssBenefit1]: "及时获取网站最新内容，无需手动访问",
 	[Key.rssBenefit2]: "在一个地方管理多个网站的订阅",
 	[Key.rssBenefit3]: "避免错过重要更新和文章",
 	[Key.rssBenefit4]: "享受无广告的纯净阅读体验",
-	[Key.rssHowToUse]: "推荐使用 Feedly、Inoreader 或其他 RSS 阅读器来订阅本站。",
+	[Key.rssHowToUse]:
+		"推荐使用 Feedly、Inoreader 或其他 RSS 阅读器来订阅本站。",
 	[Key.rssCopied]: "RSS 链接已复制到剪贴板！",
 	[Key.rssCopyFailed]: "复制失败，请手动复制链接",
 
@@ -220,12 +240,14 @@ export const zh_CN: Translation = {
 	[Key.atomCopyLink]: "复制链接",
 	[Key.atomLatestPosts]: "最新文章",
 	[Key.atomWhatIsAtom]: "什么是 Atom？",
-	[Key.atomWhatIsAtomDescription]: "Atom联合格式（Atom Syndication Format）是一个基于XML的标准，用于描述订阅源及其信息项。通过 Atom，你可以：",
+	[Key.atomWhatIsAtomDescription]:
+		"Atom联合格式（Atom Syndication Format）是一个基于XML的标准，用于描述订阅源及其信息项。通过 Atom，你可以：",
 	[Key.atomBenefit1]: "及时获取网站最新内容，无需手动访问",
 	[Key.atomBenefit2]: "在一个地方管理多个网站的订阅",
 	[Key.atomBenefit3]: "避免错过重要更新和文章",
 	[Key.atomBenefit4]: "享受无广告的纯净阅读体验",
-	[Key.atomHowToUse]: "推荐使用 Feedly、Inoreader 或其他 Atom 阅读器来订阅本站。",
+	[Key.atomHowToUse]:
+		"推荐使用 Feedly、Inoreader 或其他 Atom 阅读器来订阅本站。",
 	[Key.atomCopied]: "Atom 链接已复制到剪贴板！",
 	[Key.atomCopyFailed]: "复制失败，请手动复制链接",
 
@@ -233,8 +255,8 @@ export const zh_CN: Translation = {
 	[Key.wallpaperBanner]: "横幅模式",
 	[Key.wallpaperFullscreen]: "全屏模式",
 	[Key.wallpaperNone]: "隐藏壁纸",
-	
-		// 站点统计
+
+	// 站点统计
 	[Key.siteStats]: "站点统计",
 	[Key.siteStatsPostCount]: "文章",
 	[Key.siteStatsCategoryCount]: "分类",
