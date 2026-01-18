@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import * as fs from "node:fs";
 import type { APIContext, GetStaticPaths } from "astro";
 import satori from "satori";
-import sharp from "sharp";
+import * as sharp from "sharp";
 
 import { profileConfig, siteConfig } from "../../config";
 
