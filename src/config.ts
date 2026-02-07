@@ -313,7 +313,7 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: 更多信息",
+			name: "更多信息",
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [
