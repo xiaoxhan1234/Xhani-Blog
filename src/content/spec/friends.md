@@ -7,7 +7,7 @@
 
 ### 申请友链格式
 title[标题]：XhaniのBlog  
-imgurl[封面链接]：`https://blog.zako.wf/favicon/favicon-light-128.png`  
+imgurl[封面链接]：`https://blog.zako.wf/assets/home/home.png`  
 desc[描述]：你是一只杂鱼,还是大baka！  
 siteurl[网站链接]：`https://blog.zako.wf`  
 tags[标签]：杂鱼, 杂鱼, 杂鱼
@@ -17,7 +17,7 @@ tags[标签]：杂鱼, 杂鱼, 杂鱼
 ```json
 {
 		title: "XhaniのBlog",
-		imgurl: "https://blog.zako.wf/favicon/favicon-light-128.png",
+		imgurl: "https://blog.zako.wf/assets/home/home.png",
 		desc: "你是一只杂鱼,还是大baka!",
 		siteurl: "https://blog.zako.wf",
 		tags: ["杂鱼", "杂鱼呐", "小杂鱼呐"],

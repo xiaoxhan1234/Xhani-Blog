@@ -76,6 +76,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.lxlovo.top/",
 		tags: ["写文", "Blog", "日常"],
 	},
+	{
+		id: 9,
+		title: "yuyu的博客",
+		imgurl: "https://yuyu09.com/wp-content/uploads/2026/02/Image_1770357264135_998.jpg",
+		desc: "如果你欢迎加入yuyu的博客.这里不仅是资源与教程的聚集地,更是一群年轻创作者的成长社区.我们相信,每一次分享都能点亮一个人的探索之路.",
+		siteurl: "https://yuyu09.com",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
