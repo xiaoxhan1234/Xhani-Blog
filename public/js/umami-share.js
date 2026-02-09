@@ -24,11 +24,11 @@
 		}
 
 		const currentTimestamp = Date.now();
-		const statsUrl = `${baseUrl}/v1/websites/${websiteId}/stats?startAt=0&endAt=${currentTimestamp}`;
+		const statsUrl = `${baseUrl}/websites/${websiteId}/stats?startAt=0&endAt=${currentTimestamp}`;
 
 		const res = await fetch(statsUrl, {
 			headers: {
-				"x-umami-api-key": apiKey,
+				Authorization: `Bearer ${apiKey}`,
 			},
 		});
 
@@ -65,11 +65,11 @@
 		startAt = 0,
 		endAt = Date.now(),
 	) {
-		const statsUrl = `${baseUrl}/v1/websites/${websiteId}/stats?startAt=${startAt}&endAt=${endAt}&path=${encodeURIComponent(urlPath)}`;
+		const statsUrl = `${baseUrl}/websites/${websiteId}/stats?startAt=${startAt}&endAt=${endAt}&path=${encodeURIComponent(urlPath)}`;
 
 		const res = await fetch(statsUrl, {
 			headers: {
-				"x-umami-api-key": apiKey,
+				Authorization: `Bearer ${apiKey}`,
 			},
 		});
 

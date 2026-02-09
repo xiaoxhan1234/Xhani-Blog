@@ -648,9 +648,9 @@ export const widgetConfigs = {
 
 export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "api_65WkISplrVdCi0AzQ7sPFOyhZgVJqwq2", // API密钥优先从环境变量读取，否则使用配置文件中的值
-	baseUrl: "https://api.umami.is", // Umami Cloud API地址
+	apiKey: import.meta.env.UMAMI_API_KEY || "9QaVeJgD+HejrSELSgooMLRxaDEyqH+b2IfhJQ847XdkLhx2J3D1/wjQmobc1phVNYdda/0paYjTSmOqWidUDraJoVRnJrvULyo7LxVy1yOAfVoRTAu0V4kDPM9XtHSroSBsItYHRdI7yg9FzqZGbMNMNu96172qdsQenQEMizInv0TwgnrIm440VrsgUNOJS8PhE5lwGqIrhVvttYDxK39DzJJlnWUzI4kw+9OeKQZgvoHCnGXFBy1HQ3+2IALRkNOHOL4OjnB8sVmy7yjkdjPjoYBllUs1PjFq4HLeNdtdcrhvuojNNP+qy6Us7o6LhMF/QhH5rkAJJrM13N0SjpYXiA1L/v0CocG0JRql6lV+kbSnLmpU1JocyeA=", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	baseUrl: "https://umami.zako.wf", // Umami Cloud API地址
 	scripts: `
-<script defer src="https://cloud.umami.is/script.js" data-website-id="990905bb-5eb3-4add-a0fd-73592f0ad634"></script>
+<script defer src="https://umami.zako.wf/script.js" data-website-id="68aebc84-9f32-4c25-8825-4b2abb1fe866"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
