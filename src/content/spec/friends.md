@@ -20,7 +20,7 @@ tags[标签]：杂鱼, 杂鱼, 杂鱼
 		imgurl: "https://blog.zako.wf/assets/home/home.png",
 		desc: "你是一只杂鱼,还是大baka!",
 		siteurl: "https://blog.zako.wf",
-		tags: ["杂鱼", "杂鱼呐", "小杂鱼呐"],
+		tags: ["笨蛋呐", "小雑魚"],
 	},
 ```
 

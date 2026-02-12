@@ -84,6 +84,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://yuyu09.com",
 		tags: ["Blog"],
 	},
+	{
+		id: 10,
+		title: "Wan's Blog",
+		imgurl: "https://blog.wanfory.top/assets/images/avatar.jpg",
+		desc: "Love is my oath.",
+		siteurl: "https://blog.wanfory.top",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
