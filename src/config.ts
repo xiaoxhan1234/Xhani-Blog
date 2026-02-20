@@ -617,13 +617,13 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 启用看板娘
+	enable: true, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
-	hiddenOnMobile: true, // 默认在移动设备上隐藏
+	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "Welcome to Mizuki Website!", // 欢迎词
 		touch: [
