@@ -92,6 +92,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.wanfory.top",
 		tags: ["Blog"],
 	},
+ {
+		id: 11,
+		title: "洛屿的小站",
+		imgurl: "https://www.drluo.top/img/avatar.webp",
+		desc: "嗨，靓仔，今天也要有个好心情哦！",
+		siteurl: "https://www.drluo.top/",
+		tags: ["Blog", "洛屿"],
+	},
 ];
 
 // 获取所有友情链接数据
