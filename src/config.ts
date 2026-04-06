@@ -388,9 +388,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://www.twitch.tv/xiaoxhan1234",
 		},
 		{
-			name: "Pixiv",
-			icon: "fa7-brands:pixiv",
-			url: "https://www.pixiv.net/users/111246530",
+			name: "Twitter",
+			icon: "fa7-brands:x-twitter",
+			url: "https://x.com/xiaoxhan520",
 		},
 	],
 };
