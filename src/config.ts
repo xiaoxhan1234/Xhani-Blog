@@ -291,6 +291,12 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
 		{
+			name: "Devices",
+			url: "devices/",
+			icon: "material-symbols:devices",
+  external: false
+		},  
+		{
 			name: "Projects",
 			url: "/projects/",
 			icon: "material-symbols:work",
@@ -339,12 +345,6 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "Devices",
-			url: "devices/",
-			icon: "material-symbols:devices",
-  external: false
-		},  
 		{
 			name: "统计",
 			url: "https://umami.zako.wf/share/X4yR1g3qzli8PnvP",
