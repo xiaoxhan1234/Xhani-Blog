@@ -16,7 +16,7 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	REDMI: [
 		{
 			name: "REDMI Turbo 5 Max",
 			image: "/images/device/redmi-turbo-5-max.png",
@@ -26,14 +26,14 @@ export const devicesData: DeviceCategory = {
 			link: "https://www.mi.com/prod/redmi-turbo-5-max/",
 		},
 	],
-	Router: [
+	HONOR: [
 		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
+			name: "HONOR-Band-9",
+			image: "/images/device/honor-band-9.png",
+			specs: "曜石黑 / 4MB+48MB",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"TPU材质表带, 5ATM防水, 14天超长续航.",
+			link: "https://www.honor.com/cn/wearables/honor-band-9/",
 		},
 	],
 };
