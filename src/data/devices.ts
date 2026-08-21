@@ -37,11 +37,11 @@ export const devicesData: DeviceCategory = {
 		}, 
 		{
 			name: "HONOR-Band-10 NFC",
-			image: "/images/device/honor-band-9.png",
+			image: "/images/device/honor-band-10.png",
 			specs: "曜石黑 / 4MB+48MB",
 			description:
-				"TPU材质表带, 5ATM防水, 14天超长续航.",
-			link: "https://www.honor.com/cn/wearables/honor-band-9/",
+				"TPU外扣式表带, 5ATM防水, 14天超长续航.",
+			link: "https://www.honor.com/cn/wearables/honor-band-10/",
 		},
 	],
 };
