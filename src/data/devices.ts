@@ -25,6 +25,14 @@ export const devicesData: DeviceCategory = {
 				"天玑旗舰芯, 9000mAh大容量，100W秒充.",
 			link: "https://www.mi.com/prod/redmi-turbo-5-max/",
 		},
+		{
+			name: "REDMI Buds 5 Pro",
+			image: "/images/device/redmi-buds-5-pro.png",
+			specs: "冰瓷蓝 / AAC / LHDC5.0",
+			description:
+				"旗舰降噪耳机, 声场开阔通透, 入耳即入迷.",
+			link: "https://www.mi.com/redmi-buds-5-pro/",
+		},
 	],
 	HONOR: [
 		{
